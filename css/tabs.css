@@ -58,6 +58,7 @@ a:hover {
 }
 
 .main .menu-platos .container .contenedor-menu .encabezado {
+  padding-left: 0;
   font-weight: 600;
   font-family: "Poppins", serif;
   letter-spacing: 0.1em;
