@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- meta -->
+    <meta property="og:image" content="img/about.jpg" />
+    <meta name="description" content="Frasanco constructora" />
+
+    <!-- font awesome 5.15-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+    <title>Constructora</title>
+    <!-- style -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+    <header>
+        <!-- INICIO DE MENU -->
+ 
+        <nav class="d-flex align-items-center" id="main-menu">
+         <div class="logo">
+             <a href="index.html"> <img src="img/frasan_co.png" alt="logo Fransanco" ></a>
+         </div>
+         <div class="menu">
+                
+                     <a href="index.html">
+                         <li>Inicio</li>
+                     </a>
+                     <a href="nosotros.html">
+                         <li>Nosotros</li>
+                     </a>
+                     <a href="catalogo.html">
+                         <li>Catálogo</li>
+                     </a>
+                     <a href="contacto.html" class="active">
+                         <li>Contacto</li>
+                     </a>
+ 
+                 
+         </div>
+         <div class="redes">
+             <ul>
+                 <li>
+                     <a href="">
+                         <i class="fab fa-facebook-square"></i>
+                     </a>
+                 </li>
+                 <li>
+                     <a href="">
+                         <i class="fab fa-instagram"></i>
+                     </a>
+                 </li>
+             </ul>
+         </div>
+         <div class="burger-menu" id="burger_menu">
+             <a href="#menu-movil">
+                 <i class="fas fa-bars"></i>
+             </a>
+         </div>
+     </nav>
+ 
+     <!-- FIN MENU -->
+ 
+ 
+     <!-- MENU MOVIL -->
+     <div class="menu-movil" id="menu_movil">
+         <ul>
+             <a href="index.html">
+                 <li>Inicio</li>
+             </a>
+             <a href="nosotros.html">
+                 <li>Nosotros</li>
+             </a>
+             <a href="catalogo.html">
+                 <li>Catálogo</li>
+             </a>
+             <a href="contacto.html">
+                 <li>Contacto</li>
+             </a>
+ 
+         </ul>
+ 
+     </div>
+     <!-- FIN MENU MOVIL -->
+     </header>
+     <!-- BANNER -->
+
+    <main>
+        <section>
+            <div class="portada-general">
+                <div class="titulo-general">
+                    <h1>Contacto
+                    </h1>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container my-5 cont-contact">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 d-flex flex-wrap justify-content-center">
+                        <div class="col-lg-6 col-md-12 col-sm-12 cont-left p-5">
+                            <form action="correos.php" method="POST">
+                                <div class="form-row ">
+                                    <!-- <h1 style="font-size: 28px!important;">Contáctanos</h1> -->
+                                    <div class="form-group col-md-12">
+                                        <label for="inputName">Nombre</label>
+                                        <input type="text" class="form-control" id="inputName" name="nombre">
+                                    </div>
+                                    <div class="form-group col-md-12">
+                                        <label for="inputEmail4">Correo electrónico</label>
+                                        <input type="email" class="form-control" id="inputEmai" name="email">
+                                    </div>
+                                    <div class="form-group col-md-12">
+                                        <label for="inputEmail4">telefóno</label>
+                                        <input type="number" class="form-control" id="inputEmail" name="telefono">
+                                    </div>
+                                    <div class="form-group col-lg-12">
+                                        <label for="textArea">Mensaje</label>
+                                        <textarea name="mensaje" id="" cols="20" rows="10" class="form-control" ></textarea>
+                                    </div>
+                                    <button type="submit" class="btn btn-success my-4 col-12 p-3">Enviar</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-lg-6 col-md-12 cont-right p-5">
+                            <h2>FransanCo</h2>
+                            
+                           <div>
+                                <span style="font-size: 20px;"><i class="fas fa-map-marker-alt" style="font-size: 20px; margin: 0 10px 0 0;"></i>contacto@fransanco.com</span>
+                           </div>
+                          <div>
+                                <p style="font-size: 20px;"><i class="fas fa-map-marker-alt" style="margin: 0 10px 0 0;"></i>Sauces 82, bosques de Xhala Cuautitlán Izcalli, C.P 54800
+                                </p>
+                          </div>
+                            <div class="cont-img">
+                                <p style="font-size: 20px;"><i class="fas fa-phone-alt" style="margin: 0 10px 0 0;"></i>(52)55 4317 2696</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d30054.3527700613!2d-99.177629!3d19.678788!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f57020e851f5%3A0xfcc74a78f39ff2f1!2sCalle%20Sauces%2082%2C%20Los%20Morales%2C%2054800%20Cuautitl%C3%A1n%2C%20M%C3%A9x.%2C%20Mexico!5e0!3m2!1sen!2sus!4v1621465976237!5m2!1sen!2sus"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+
+            <div class="cont-footer">
+                <div class="cont-li">
+                    <div class="logo-footer">
+                        <img src="img/frasan_co.png" alt="">
+                    </div>
+                    <p>Actualmente somos una empresa dedicada al arrendamiento y compraventa de maquinaria para la
+                        construcción y vehículos especiales, así como montacargas y elevadores.</p>
+                </div>
+                <div class="cont-li">
+                    <div class="cont-li-title">
+                        <h6>Lorem, ipsum dolor.</h6>
+                    </div>
+                    <nav class="footer-nav">
+                        <ul class="d-flex">
+                            <li><a href=""><img src="img/service1.jpg" alt=""></a></li>
+                            <li><a href=""><img src="img/service1.jpg" alt=""></a></li>
+                            <li><a href=""><img src="img/service1.jpg" alt=""></a></li>
+                        </ul>
+                        <ul class="d-flex">
+                            <li><a href=""><img src="img/service1.jpg" alt=""></a></li>
+                            <li><a href=""><img src="img/service1.jpg" alt=""></a></li>
+                            <li><a href=""><img src="img/service1.jpg" alt=""></a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="cont-li">
+                    <div class="cont-li-title">
+                        <h6>Menú</h6>
+                    </div>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="nosotros.html">Nosotros</a></li>
+                        <li><a href="catalogo.html">Catálogo</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="cont-li">
+                    <div class="cont-li-title">
+                        <h6>Contacto</h6>
+                    </div>
+                    <div class="contacto-footer">
+                        <div>
+                            <p><i class="fas fa-map-marker-alt"></i>Sauces 82, bosques de Xhala Cuautitlán Izcalli, C.P
+                                54800
+                            </p>
+                        </div>
+                        <div>
+                            <p><i class="fas fa-phone-alt"></i>(52)55 4317
+                                2696</p>
+                        </div>
+                        <div>
+                            <span><i class="fas fa-envelope"></i><a
+                                    href="mailto:contacto@fransanco.com">contacto@fransanco.com</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+<script src="js/main.js"></script>
+
+</body>
+
+</html>
