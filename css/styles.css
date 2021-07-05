@@ -562,28 +562,28 @@ main .background-industria .cont-img-iconos .servicios {
 main .background-industria .cont-img-iconos .servicios .view-img {
   width: 220px;
   height: 250px;
-  background-image: url(../img/service4.jpg);
+  background-image: url(../img/servicio1.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 main .background-industria .cont-img-iconos .servicios .view-img:nth-child(2) {
-  background-image: url(../img/service2.jpg);
+  background-image: url(../img/servicio6.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 main .background-industria .cont-img-iconos .servicios .view-img:nth-child(3) {
-  background-image: url(../img/service1.jpg);
+  background-image: url(../img/servicio3.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 main .background-industria .cont-img-iconos .servicios .view-img:nth-child(4) {
-  background-image: url(../img/about.jpg);
+  background-image: url(../img/servicio4.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
