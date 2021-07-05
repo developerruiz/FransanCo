@@ -816,10 +816,6 @@ main .background-about::before {
   height: 100%;
 }
 
-main .card {
-  border: none !important;
-}
-
 footer {
   background: #030f27;
 }

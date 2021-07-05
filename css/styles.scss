@@ -213,7 +213,6 @@ header {
                     -o-transition: all .3s ease-in;
                 }
             }
-
             display: none;
         }
     }
@@ -749,9 +748,9 @@ main {
     }
 
     // CATALOGO
-    .card {
-        border: none !important
-    }
+    // .card {
+    //     border: none !important;
+    // }
 }
 
 footer {
