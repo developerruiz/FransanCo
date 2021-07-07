@@ -11,9 +11,9 @@
 
   <!-- font awesome 5.15-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-      crossorigin="anonymous" referrerpolicy="no-referrer" />
-      
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
   <title>Constructora</title>
   <!-- style -->
   <link rel="stylesheet" href="css/styles.css">
@@ -21,9 +21,10 @@
 
   <!-- bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
-      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
-
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -32,43 +33,43 @@
 
     <nav class="" id="main-menu">
 
-        <div class="logo">
-            <a href="index.html"> <img src="img/frasan_co.png" alt="logo Fransanco"></a>
-        </div>
+      <div class="logo">
+        <a href="index.html"> <img src="img/frasan_co.png" alt="logo Fransanco"></a>
+      </div>
 
-        <div class="menu">
-            <a href="index.html" class="active">
-                <li class="active">Inicio</li>
+      <div class="menu">
+        <a href="index.html" class="active">
+          <li class="active">Inicio</li>
+        </a>
+        <a href="nosotros.html">
+          <li>Nosotros</li>
+        </a>
+        <a href="catalogo.html">
+          <li>Catálogo</li>
+        </a>
+        <a href="contacto.html">
+          <li>Contacto</li>
+        </a>
+      </div>
+      <div class="redes">
+        <ul>
+          <li>
+            <a href="">
+              <i class="fab fa-facebook-square"></i>
             </a>
-            <a href="nosotros.html">
-                <li>Nosotros</li>
+          </li>
+          <li>
+            <a href="">
+              <i class="fab fa-instagram"></i>
             </a>
-            <a href="catalogo.html">
-                <li>Catálogo</li>
-            </a>
-            <a href="contacto.html">
-                <li>Contacto</li>
-            </a>
-        </div>
-        <div class="redes">
-            <ul>
-                <li>
-                    <a href="">
-                        <i class="fab fa-facebook-square"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
-        <div class="burger-menu" id="burger_menu">
-            <a href="#menu-movil">
-                <i class="fas fa-bars"></i>
-            </a>
-        </div>
+          </li>
+        </ul>
+      </div>
+      <div class="burger-menu" id="burger_menu">
+        <a href="#menu-movil">
+          <i class="fas fa-bars"></i>
+        </a>
+      </div>
     </nav>
 
     <!-- FIN MENU -->
@@ -76,127 +77,160 @@
 
     <!-- MENU MOVIL -->
     <div class="menu-movil" id="menu_movil">
-        <ul>
-            <a href="index.html">
-                <li>Inicio</li>
-            </a>
-            <a href="nosotros.html">
-                <li>Nosotros</li>
-            </a>
-            <a href="catalogo.html">
-                <li>Catálogo</li>
-            </a>
-            <a href="contacto.html">
-                <li>Contacto</li>
-            </a>
+      <ul>
+        <a href="index.html">
+          <li>Inicio</li>
+        </a>
+        <a href="nosotros.html">
+          <li>Nosotros</li>
+        </a>
+        <a href="catalogo.html">
+          <li>Catálogo</li>
+        </a>
+        <a href="contacto.html">
+          <li>Contacto</li>
+        </a>
 
-        </ul>
+      </ul>
 
     </div>
-    
-</header>
-    <!-- FIN MENU MOVIL -->
-</header>
-<!-- BANNER -->
-    <!-- MAIN -->
-    <section class="main">
+
+  </header>
+  <!-- FIN MENU MOVIL -->
+  
+  <!-- BANNER -->
+  <!-- MAIN -->
+  <section class="main">
 
 
-      <!-- Nuestro menú -->
-      <section class="menu-platos" id="nuestro_menu">
-          <div class="container">
-              <div class="titulo-seccion">
-                  <!-- <h2>Nuestro Menú</h2> -->
+    <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Contactános</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
 
-                  <div class="contenedor-menu">
-                      <ul id="encabezado_menu" class="encabezado">
-                          <li>
-                              <a href="#maquinaria_pesada">Maquinaria pesada</a>
-                          </li>
-                          <li>
-                              <a href="#plataformas">plataformas</a>
-                          </li>
-                          <li>
-                              <a href="#especiales">Vehiculos Especiales</a>
-                          </li>
-                          <li>
-                              <a href="#ligera">Maquinaria ligera</a>
-                          </li>
+    <!-- Nuestro menú -->
+    <section class="menu-platos" id="nuestro_menu">
+      <div class="container">
+        <div class="titulo-seccion">
+          <!-- <h2>Nuestro Menú</h2> -->
 
-                      </ul>
-                  </div>
+          <div class="contenedor-menu">
+            <ul id="encabezado_menu" class="encabezado">
+              <li>
+                <a href="#maquinaria_pesada">Maquinaria pesada</a>
+              </li>
+              <li>
+                <a href="#plataformas">plataformas</a>
+              </li>
+              <li>
+                <a href="#especiales">Vehiculos Especiales</a>
+              </li>
+              <li>
+                <a href="#ligera">Maquinaria ligera</a>
+              </li>
 
-                  <div class="contenido" id="contenido_menu">
-                      <!-- menu postres -->
-                      <div id="maquinaria_pesada">
-                          <div class="container">
-                              <div id="fondo">
-                                  <div id="items" class="m-0"></div>
-                              </div>
-                              <h4 class="my-5"></h4>
-                              <div class="col-lg-12">
-                                  <div class="col-lg-12">
-                                      <div class="row" id="cards"></div>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                      <!-- menu postres -->
+            </ul>
+          </div>
 
-                      <!-- Menu cafes -->
-                      <div id="plataformas">
-
-                          <div class="container">
-                              <div id="fondo_plataforma">
-                                  <div id="items_plataforma" class="m-0"></div>
-                              </div>
-                              <h4 class="my-5"></h4>
-                              <div class="col-lg-12">
-                                  <div class="col-lg-12">
-                                      <div class="row" id="cards_plataforma"></div>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-
-                      <!-- Menu cafes -->
-                      <div id="especiales">
-
-                        <div class="container">
-                            <div id="fondo_especiales">
-                                <div id="items_especiales" class="m-0"></div>
-                            </div>
-                            <h4 class="my-5"></h4>
-                            <div class="col-lg-12">
-                                <div class="col-lg-12">
-                                    <div class="row" id="cards_especiales"></div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                    
-                      <!-- Menu cafes -->
-                      <div id="ligera">
-
-                        <div class="container">
-                            <div id="fondo_ligera">
-                                <div id="items_ligera" class="m-0"></div>
-                            </div>
-                            <h4 class="my-5"></h4>
-                            <div class="col-lg-12">
-                                <div class="col-lg-12">
-                                    <div class="row" id="cards_ligera"></div>
-                                </div>
-                            </div>
-                        </div>
+          <div class="contenido" id="contenido_menu">
+            <!-- menu postres -->
+            <div id="maquinaria_pesada">
+              <div class="container">
+                <div id="fondo">
+                  <div id="items" class="m-0"></div>
+                </div>
+                <h4 class="my-5"></h4>
+                <div class="col-lg-12">
+                  <div class="col-lg-12">
+                    <div class="row" id="cards">
 
                     </div>
 
                   </div>
+                </div>
               </div>
-      </section>
-      <!-- Nuestro Menú -->
+
+            </div>
+            <!-- menu postres -->
+
+            <!-- Menu cafes -->
+            <div id="plataformas">
+
+              <div class="container">
+                <div id="fondo_plataforma">
+                  <div id="items_plataforma" class="m-0"></div>
+                </div>
+                <h4 class="my-5"></h4>
+                <div class="col-lg-12">
+                  <div class="col-lg-12">
+                    <div class="row" id="cards_plataforma"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Menu cafes -->
+            <div id="especiales">
+
+              <div class="container">
+                <div id="fondo_especiales">
+                  <div id="items_especiales" class="m-0"></div>
+                </div>
+                <h4 class="my-5"></h4>
+                <div class="col-lg-12">
+                  <div class="col-lg-12">
+                    <div class="row" id="cards_especiales"></div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Menu cafes -->
+            <div id="ligera">
+
+              <div class="container">
+                <div id="fondo_ligera">
+                  <div id="items_ligera" class="m-0"></div>
+                </div>
+                <h4 class="my-5"></h4>
+                <div class="col-lg-12">
+                  <div class="col-lg-12">
+                    <div class="row" id="cards_ligera"></div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+
+
+        
+    </section>
+    <!-- Nuestro Menú -->
 
 
   </section>
@@ -205,43 +239,63 @@
 
   <!-- inicio de templates plataforma -->
   <template id="template-card">
-      <div class="col-lg-3">
-          <div class="card m-1 cardhover" style="border: none;">
-              <div class="card-body d-grid gap-2">
-                  <img src="" alt="" class="card-img-top">
-                  <h5>Titulo</h5>
-                  <p></p>
-                  <p></p>
-                  <p></p>
-                  <p></p>
-                  <p></p>
+    <div class="col-lg-3">
+      <div class="card m-1 cardhover" style="border: none;">
+        <div class="card-body d-grid gap-2">
+          <img src="" alt="" class="card-img-top">
+          <h5>Titulo</h5>
+          <p></p>
+          <p></p>
+          <p></p>
+          <p></p>
+          <p></p>
+          <p></p>
+          <p></p>
+          <p></p>
 
-                  <button class="btn btn-warning" type="button">Button</button>
-                  <button class="btn btn-info" type="button">Enviar mensaje</button>
 
-              </div>
-          </div>
+
+          <button class="btn btn-warning" type="button">Ver detalles</button>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Launch demo modal
+          </button>
+
+          
+
+        </div>
       </div>
+    </div>
+    
+
+
+    
   </template>
+  
+  
   <template id="template-modal">
-      <div class="card modal-card">
-          <div class="row no-gutters">
-              <div class="col-md-6">
-                  <img src="..." class="card-img" alt="...">
-              </div>
-              <div class="col-md-6">
-                  <div class="p-2 parrafos">
-                      <h5 class="card-title" style="font-weight: bold;">Card title</h5>
-                      <p></p>
-                      <p></p>
-                      <p></p>
-                      <p></p>
-                      <p></p>
-                  </div>
-              </div>
+    <div class="card modal-card">
+      <div class="row no-gutters">
+        <div class="col-md-6">
+          <img src="..." class="card-img" alt="...">
+        </div>
+        <div class="col-md-5">
+          <div class="p-2 parrafos" >
+            <h5 class="card-title" style="font-weight: bold;">Card title</h5>
+            <br>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
           </div>
+        </div>
       </div>
+    </div>
 
+    
   </template>
   <!-- fin de templates plataforma-->
 
@@ -265,206 +319,206 @@
         </div>
       </div>
     </div>
-  </template>    
+  </template>
   <template id="template-modal-plataforma">
-      
-      <div class="card modal-card">
-          <div class="row no-gutters">
-              <div class="col-md-6">
-                  <img src="..." class="card-img" alt="...">
-              </div>
-              <div class="col-md-6">
-                  <div class="p-2 parrafos">
-                      <h5 class="card-title" style="font-weight: bold;">Card title</h5>
-                      <p></p>
-                      <p></p>
-                      <p></p>
-                      <p></p>
-                      <p></p>
-                  </div>
-              </div>
+
+    <div class="card modal-card">
+      <div class="row no-gutters">
+        <div class="col-md-6">
+          <img src="..." class="card-img" alt="...">
+        </div>
+        <div class="col-md-6">
+          <div class="p-2 parrafos">
+            <h5 class="card-title" style="font-weight: bold;">Card title</h5>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
           </div>
+        </div>
       </div>
-      
+    </div>
+
   </template>
   <!-- fin de templates plataforma-->
 
-    <!-- inicio de templates especial-->
-    <template id="template-card-especial">
-      <div class="col-lg-3">
-        <div class="card m-1 cardhover" style="border: none;">
-          <div class="card-body d-grid gap-2">
-            <img src="" alt="" class="card-img-top">
-            <h5>Titulo</h5>
+  <!-- inicio de templates especial-->
+  <template id="template-card-especial">
+    <div class="col-lg-3">
+      <div class="card m-1 cardhover" style="border: none;">
+        <div class="card-body d-grid gap-2">
+          <img src="" alt="" class="card-img-top">
+          <h5>Titulo</h5>
+          <p></p>
+          <p></p>
+          <p></p>
+          <p></p>
+          <p></p>
+
+          <button class="btn btn-warning" type="button">Button</button>
+          <button class="btn btn-info" type="button">Enviar mensaje</button>
+
+        </div>
+      </div>
+    </div>
+  </template>
+  <template id="template-modal-especial">
+
+    <div class="card modal-card">
+      <div class="row no-gutters">
+        <div class="col-md-6">
+          <img src="..." class="card-img" alt="...">
+        </div>
+        <div class="col-md-6">
+          <div class="p-2 parrafos">
+            <h5 class="card-title" style="font-weight: bold;">Card title</h5>
             <p></p>
             <p></p>
             <p></p>
             <p></p>
             <p></p>
-  
-            <button class="btn btn-warning" type="button">Button</button>
-            <button class="btn btn-info" type="button">Enviar mensaje</button>
-  
           </div>
         </div>
       </div>
-    </template>    
-    <template id="template-modal-especial">
-        
-        <div class="card modal-card">
-            <div class="row no-gutters">
-                <div class="col-md-6">
-                    <img src="..." class="card-img" alt="...">
-                </div>
-                <div class="col-md-6">
-                    <div class="p-2 parrafos">
-                        <h5 class="card-title" style="font-weight: bold;">Card title</h5>
-                        <p></p>
-                        <p></p>
-                        <p></p>
-                        <p></p>
-                        <p></p>
-                    </div>
-                </div>
-            </div>
-          </div>
-        </div>
-        
-    </template>
-    <!-- fin de templates especial-->
+    </div>
+    </div>
 
-    <!-- inicio de templates ligera-->
-    <template id="template-card-ligera">
-      <div class="col-lg-3">
-        <div class="card m-1 cardhover" style="border: none;">
-          <div class="card-body d-grid gap-2">
-            <img src="" alt="" class="card-img-top">
-            <h5>Titulo</h5>
+  </template>
+  <!-- fin de templates especial-->
+
+  <!-- inicio de templates ligera-->
+  <template id="template-card-ligera">
+    <div class="col-lg-3">
+      <div class="card m-1 cardhover" style="border: none;">
+        <div class="card-body d-grid gap-2">
+          <img src="" alt="" class="card-img-top">
+          <h5>Titulo</h5>
+          <p></p>
+          <p></p>
+          <p></p>
+          <p></p>
+          <p></p>
+
+          <button class="btn btn-warning" type="button">Button</button>
+          <button class="btn btn-info" type="button">Enviar mensaje</button>
+
+        </div>
+      </div>
+    </div>
+  </template>
+  <template id="template-modal-ligera">
+
+    <div class="card modal-card">
+      <div class="row no-gutters">
+        <div class="col-md-6">
+          <img src="..." class="card-img" alt="...">
+        </div>
+        <div class="col-md-6">
+          <div class="p-2 parrafos">
+            <h5 class="card-title" style="font-weight: bold;">Card title</h5>
             <p></p>
             <p></p>
             <p></p>
             <p></p>
             <p></p>
-  
-            <button class="btn btn-warning" type="button">Button</button>
-            <button class="btn btn-info" type="button">Enviar mensaje</button>
-  
           </div>
         </div>
       </div>
-    </template>    
-    <template id="template-modal-ligera">
-        
-        <div class="card modal-card">
-            <div class="row no-gutters">
-                <div class="col-md-6">
-                    <img src="..." class="card-img" alt="...">
-                </div>
-                <div class="col-md-6">
-                    <div class="p-2 parrafos">
-                        <h5 class="card-title" style="font-weight: bold;">Card title</h5>
-                        <p></p>
-                        <p></p>
-                        <p></p>
-                        <p></p>
-                        <p></p>
-                    </div>
-                </div>
-            </div>
+    </div>
+
+  </template>
+  <!-- fin de templates ligera-->
+
+
+  <footer>
+    <div class="container">
+      <div class="cont-footer">
+        <div class="cont-li">
+          <div class="logo-footer">
+            <img src="img/frasan_co.png" alt="">
+          </div>
+          <p>Actualmente somos una empresa dedicada al arrendamiento y compraventa de maquinaria para la
+            construcción y vehículos especiales, así como montacargas y elevadores.</p>
         </div>
-        
-    </template>
-    <!-- fin de templates ligera-->
-
-
-    <footer>
-      <div class="container">
-        <div class="cont-footer">
-          <div class="cont-li">
-            <div class="logo-footer">
-              <img src="img/frasan_co.png" alt="">
-            </div>
-            <p>Actualmente somos una empresa dedicada al arrendamiento y compraventa de maquinaria para la
-              construcción y vehículos especiales, así como montacargas y elevadores.</p>
+        <div class="cont-li">
+          <div class="cont-li-title">
+            <h6>Lorem, ipsum dolor.</h6>
           </div>
-          <div class="cont-li">
-            <div class="cont-li-title">
-              <h6>Lorem, ipsum dolor.</h6>
-            </div>
-            <nav class="footer-nav">
-              <ul class="d-flex">
-                <li><a href=""><img src="img/service1.jpg" alt=""></a></li>
-                <li><a href=""><img src="img/service1.jpg" alt=""></a></li>
-                <li><a href=""><img src="img/service1.jpg" alt=""></a></li>
-              </ul>
-              <ul class="d-flex">
-                <li><a href=""><img src="img/service1.jpg" alt=""></a></li>
-                <li><a href=""><img src="img/service1.jpg" alt=""></a></li>
-                <li><a href=""><img src="img/service1.jpg" alt=""></a></li>
-              </ul>
-            </nav>
-          </div>
-          <div class="cont-li">
-            <div class="cont-li-title">
-              <h6>Menú</h6>
-            </div>
-            <ul>
-              <li><a href="index.html">Inicio</a></li>
-              <li><a href="nosotros.html">Nosotros</a></li>
-              <li><a href="catalogo.html">Catálogo</a></li>
-              <li><a href="contacto.html">Contacto</a></li>
+          <nav class="footer-nav">
+            <ul class="d-flex">
+              <li><a href=""><img src="img/service1.jpg" alt=""></a></li>
+              <li><a href=""><img src="img/service1.jpg" alt=""></a></li>
+              <li><a href=""><img src="img/service1.jpg" alt=""></a></li>
             </ul>
+            <ul class="d-flex">
+              <li><a href=""><img src="img/service1.jpg" alt=""></a></li>
+              <li><a href=""><img src="img/service1.jpg" alt=""></a></li>
+              <li><a href=""><img src="img/service1.jpg" alt=""></a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="cont-li">
+          <div class="cont-li-title">
+            <h6>Menú</h6>
           </div>
-          <div class="cont-li">
-            <div class="cont-li-title">
-              <h6>Contacto</h6>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="catalogo.html">Catálogo</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="cont-li">
+          <div class="cont-li-title">
+            <h6>Contacto</h6>
+          </div>
+          <div class="contacto-footer">
+            <div>
+              <p><i class="fas fa-map-marker-alt"></i>Sauces 82, bosques de Xhala Cuautitlán Izcalli, C.P
+                54800
+              </p>
             </div>
-            <div class="contacto-footer">
-              <div>
-                <p><i class="fas fa-map-marker-alt"></i>Sauces 82, bosques de Xhala Cuautitlán Izcalli, C.P
-                  54800
-                </p>
-              </div>
-              <div>
-                <p><i class="fas fa-phone-alt"></i>(52)55 4317
-                  2696</p>
-              </div>
-              <div>
-                <span><i class="fas fa-envelope"></i><a
-                    href="mailto:contacto@fransanco.com">contacto@fransanco.com</a></span>
-              </div>
+            <div>
+              <p><i class="fas fa-phone-alt"></i>(52)55 4317
+                2696</p>
+            </div>
+            <div>
+              <span><i class="fas fa-envelope"></i><a
+                  href="mailto:contacto@fransanco.com">contacto@fransanco.com</a></span>
             </div>
           </div>
         </div>
-
-      </div>
-      <div class="copy" style="font-size: 12px; color: #fff;">
-        <p>&copy;Fransanco 2021</p>
       </div>
 
+    </div>
+    <div class="copy" style="font-size: 12px; color: #fff;">
+      <p>&copy;Fransanco 2021</p>
+    </div>
 
-    </footer>
 
-    <!-- bootstrap -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-    </script>
-    <!-- bootstrap -->
+  </footer>
 
-    <!-- JSON -->
-    <script src="js/app.js"></script>
-    <script src="js/tabs.js"></script>
-    <script src="js/plataformas.js"></script>
-    <script src="js/especiales.js"></script>
-    <script src="js/maLigera.js"></script>
-    <script src="js/main.js"></script>
-    
-  </body>
+  <!-- bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
+  <!-- bootstrap -->
+
+  <!-- JSON -->
+  <script src="js/app.js"></script>
+  <script src="js/tabs.js"></script>
+  <script src="js/plataformas.js"></script>
+  <script src="js/especiales.js"></script>
+  <script src="js/maLigera.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
 
 </html>

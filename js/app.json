@@ -2,24 +2,24 @@
         "id": "1",
         "categoria": "1",
         "imagen": "http://fransanco.com/admin/uploads/MiniCargador-CAT.png",
-        "title": "Mini cargador Caterpillar 259D",
+        "title": "Cargador frontal Caterpillar 980H",
         "detalle": {
-            "textoUno": "CAT C3 .3B DIT (turbo)",
-            "textoDos": "55.4 kW",
-            "textoTres": "1, 013 kg",
-            "textoCuatro": "0.4m3"
+            "textoUno": "Modelo de motor: Motor diésel CAT C15 con tecnología ACERT TM",
+            "textoDos": "Potencia del motor: 293 kW/ 398 CV",
+            "textoTres": "Capacidad de excavación: 436 cm",
+            "textoCuatro": "Capacidad del cucharon: de 4.5 a 6.1 m3",
+            "textoCinco":"Tracción: 4x4"
         }
     }, {
         "id": "2",
         "categoria": "1",
         "imagen": "http://fransanco.com/admin/uploads/cargador.png",
-        "title": "Cargador frontal Caterpillar 980H",
+        "title": "Mini cargador Caterpillar 259D",
         "detalle": {
-            "textoUno": "CAT C15 ACERT TM",
-            "textoDos": "55.4 kW",
-            "textoTres": "436cm",
-            "textoCuatro": "de 4.5 a 6.1 m3",
-            "textoCinco": "4x4"
+            "textoUno": "Modelo de motor: CAT C3 .3B DIT (turbo)",
+            "textoDos": "Potencia del motor: 55.4 kW",
+            "textoTres": "Capacidad de operación: 4, 013 kg",
+            "textoCuatro": "Capacidad del balde: 0.4 m3"
         }
     }, {
         "id": "3",
@@ -27,10 +27,12 @@
         "imagen": "http://fransanco.com/admin/uploads/Retroexcavadora_Cat_416E.png",
         "title": "Retro excavadora Caterpillar 416E",
         "detalle": {
-            "textoUno": "3054C DINA",
-            "textoDos": "55 kW",
-            "textoTres": "4,360 mm",
-            "textoCuatro": "0.4m3"
+            "textoUno": "Modelo de motor: 3054C DINA",
+            "textoDos": "Potencia del motor: 55 kW",
+            "textoTres": "Capacidad de excavación: 4,360 mm",
+            "textoCuatro": "Capacidad del cucharon: 0.76 m3",
+            "textoCinco": "Encabinado: Si",
+            "textoSeis": "Tracción: 4x2"
         }
     }, {
         "id": "4",
@@ -38,13 +40,13 @@
         "imagen": "http://fransanco.com/admin/uploads/Retoexcavadora_Case_770_Exmagnum.png",
         "title": "Retro excavadora case 770 exmagnum",
         "detalle": {
-            "textoUno": "S8000 FPT",
-            "textoDos": "86 HP",
-            "textoTres": "",
-            "textoCuatro": "0.80 Cum",
-            "textoCinco": ".30cum",
-            "textoSeis": "4x4",
-            "TextoSiete": "Si"
+            "textoUno": "Modelo de motor: S8000 FPT",
+            "textoDos": "Potencia del motor: 86 HP",
+            "textoTres": "Capacidad de excavación:",
+            "textoCuatro": "Capacidad del cucharon frontal: 0.80 Cum",
+            "textoCinco": "Capacidad de cucharon trasero: .30cum",
+            "textoSeis": "Tracción: 4x4",
+            "TextoSiete": "Encabinado: Si"
         }
     }, {
         "id": "5",
@@ -52,13 +54,12 @@
         "imagen": "http://fransanco.com/admin/uploads/Retroexcavadora_Case_580_SuperN.png",
         "title": "Retroexcavadora case 580 Super N",
         "detalle": {
-            "textoUno": "FPT F5BFL413B Turbo cargado",
-            "textoDos": "71 kW",
-            "textoTres": "4.41 m",
-            "textoCuatro": "0.79 m3",
-            "textoCinco": "",
-            "textoSeis": "4x4",
-            "textoSiete": "Si"
+            "textoUno": "Modelo de motor: FPT F5BFL413B Turbo cargado",
+            "textoDos": "Potencia del motor: 71 kW",
+            "textoTres": "Capacidad de excavación: 4.41 m",
+            "textoCuatro": "Capacidad del cucharon: 0.79 m3",
+            "textoCinco": "Tracción: 4x4",
+            "textoSeis": "Cabinado: Si"
         }
     }, {
         "id": "6",
@@ -66,13 +67,11 @@
         "imagen": "http://fransanco.com/admin/uploads/Excavadora_HidraYulica_Caterpillar_320C_1.png",
         "title": "Excavadora hidráulica Caterpillar 330C",
         "detalle": {
-            "textoUno": "CAT C-9 ATAAC",
-            "textoDos": "181 kW",
-            "textoTres": "6.45 m a 8.06 m",
-            "textoCuatro": "1.9 a 2.2 m3",
-            "textoCinco": "",
-            "textoSeis": "Sobre Orugas",
-            "textoSiete": ""
+            "textoUno": "Modelo de motor: CAT C-9 ATAAC",
+            "textoDos": "Potencia del motor: 181 kW",
+            "textoTres": "Capacidad de excavación: 6.45 m a 8.06 m",
+            "textoCuatro": "Capacidad del cucharon: 1.9 a 2.2 m3",
+            "textoCinco": "Tracción: sobre orugas"
         }
     }, {
         "id": "7",
@@ -80,13 +79,11 @@
         "imagen": "http://fransanco.com/admin/uploads/excavadora_lovol__1.png",
         "title": "Excavadora Lovol FR220D",
         "detalle": {
-            "textoUno": "Cummins 6BTAA5.9-C150",
-            "textoDos": "112 kW",
-            "textoTres": "",
-            "textoCuatro": " 0.92 m3",
-            "textoCinco": "",
-            "textoSeis": "Sobre Orugas",
-            "textoSiete": ""
+            "textoUno": "Modelo de motor: Cummins 6BTAA5.9-C150",
+            "textoDos": "Potencia del motor: 112 kW",
+            "textoTres": "Capacidad de excavación:",
+            "textoCuatro": "Capacidad del cucharon: 0.92 m3",
+            "textoCinco": "Tracción: sobre orugas"
         }
     }, {
         "id": "8",
@@ -98,9 +95,9 @@
             "textoDos": "2013",
             "textoTres": "4.75 m",
             "textoCuatro": "Triple",
-            "llantas": "rundom",
-            "capacidadCarga": "5,000 lbs",
-            "horasTrabajo": "5,407 horas"
+            "textoCinco": "rundom",
+            "textoSeis": "5,000 lbs",
+            "textoSiete": "5,407 horas"
         }
     }, {
         "id": "9",
@@ -113,8 +110,8 @@
             "textoTres": "4.75 m",
             "textoCuatro": "Triple",
             "textoCinco": "rundom",
-            "capacidadCarga": "8,000 lbs",
-            "horasTrabajo": "5,407 horas"
+            "textoSeis": "8,000 lbs",
+            "textoSiete": "5,407 horas"
         }
     }, {
         "id": "10",

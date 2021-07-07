@@ -45,14 +45,17 @@ const pintarCards = data => {
             templateCard.querySelector('h5').textContent = producto.title
             templateCard.querySelector('img').setAttribute('src', producto.imagen)
             templateCard.querySelector('.btn-warning').dataset.id = producto.id
-
             templateCard.querySelectorAll('p')[0].textContent = producto.detalle.textoUno
             templateCard.querySelectorAll('p')[1].textContent = producto.detalle.textoDos
             templateCard.querySelectorAll('p')[2].textContent = producto.detalle.textoTres
             templateCard.querySelectorAll('p')[3].textContent = producto.detalle.textoCuatro
+            templateCard.querySelectorAll('p')[4].textContent = producto.detalle.textoCinco
+            templateCard.querySelectorAll('p')[5].textContent = producto.detalle.textoSeis
+            templateCard.querySelectorAll('p')[6].textContent = producto.detalle.textoSiete
+            
+
             // templateCard.querySelectorAll('p')[4].textContent = producto.detalle.textoCinco
             // templateCard.querySelectorAll('p')[5].textContent = producto.detalle.textoSeis
-
 
 
             for (let i = 0; i < templateCard.querySelectorAll('p').length; i++) {
@@ -84,10 +87,10 @@ const pintarCards = data => {
             templateCard2.querySelectorAll('p')[1].textContent = producto.detalle.textoDos
             templateCard2.querySelectorAll('p')[2].textContent = producto.detalle.textoTres
             templateCard2.querySelectorAll('p')[3].textContent = producto.detalle.textoCuatro
-            // templateCard2.querySelectorAll('p')[4].textContent = producto.detalle.textoCinco
-            // templateCard2.querySelectorAll('p')[5].textContent = producto.detalle.textoSeis
-
-
+            templateCard2.querySelectorAll('p')[4].textContent = producto.detalle.textoCinco
+            templateCard2.querySelectorAll('p')[5].textContent = producto.detalle.textoSeis
+            templateCard2.querySelectorAll('p')[6].textContent = producto.detalle.textoSiete
+            
 
             for (let i = 0; i < templateCard2.querySelectorAll('p').length; i++) {
 
@@ -202,6 +205,11 @@ const tomarDatos = obejeto => {
         textoDos: obejeto.querySelectorAll('p')[1].textContent,
         textoTres: obejeto.querySelectorAll('p')[2].textContent,
         textoCuatro: obejeto.querySelectorAll('p')[3].textContent,
+        textoCinco: obejeto.querySelectorAll('p')[4].textContent,
+        textoSeis: obejeto.querySelectorAll('p')[5].textContent,
+        textoSiete: obejeto.querySelectorAll('p')[6].textContent,
+        // textoCuatro: obejeto.querySelectorAll('p')[3].textContent,
+
         // textoCinco: obejeto.querySelectorAll('p')[4].textContent,
         // textoSeis: obejeto.querySelectorAll('p')[5].textContent,
         // detalle: obejeto.querySelectorAll('p')[0]
@@ -238,8 +246,10 @@ const pintarProductos = () => {
         templateModal.querySelectorAll('p')[1].textContent = producto.textoDos
         templateModal.querySelectorAll('p')[2].textContent = producto.textoTres
         templateModal.querySelectorAll('p')[3].textContent = producto.textoCuatro
-        // templateModal.querySelectorAll('p')[4].textContent =  producto.textoCinco
-        // templateModal.querySelectorAll('p')[5].textContent =  producto.textoSeis
+        templateModal.querySelectorAll('p')[4].textContent =  producto.textoCinco
+        templateModal.querySelectorAll('p')[5].textContent =  producto.textoSeis
+        templateModal.querySelectorAll('p')[6].textContent =  producto.textoSiete
+
         const clone = templateModal.cloneNode(true)
         fragment.appendChild(clone)
     })
@@ -249,9 +259,9 @@ const pintarProductos = () => {
 
 fondoModal.addEventListener('click', function () {
     carrito = {}
-    console.log(this);
-    pintarProductos()
-    items.innerHTML = ''
+    // console.log(this);
+    // pintarProductos()
+    // items.innerHTML = ''
 
     fondoModal.style.background = "none"
     fondoModal.style.width = '0'
@@ -259,5 +269,5 @@ fondoModal.addEventListener('click', function () {
     fondoModal.style.display = 'none'
     fondoModal.style.position = 'relative'
     fondoModal.style.zIndex = '0'
-
+    
 })
