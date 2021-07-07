@@ -1012,6 +1012,7 @@ footer .copy p {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+  border: 2px solid #000;
 }
 
 .lista li {
