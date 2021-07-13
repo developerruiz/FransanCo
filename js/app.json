@@ -1,7 +1,7 @@
 [{
         "id": "1",
         "categoria": "1",
-        "imagen": "http://fransanco.com/admin/uploads/MiniCargador-CAT.png",
+        "imagen": "img/MiniCargador-CAT.png",
         "title": "Cargador frontal Caterpillar 980H",
         "detalle": {
             "textoUno": "Modelo de motor: Motor diésel CAT C15 con tecnología ACERT TM",
@@ -11,9 +11,9 @@
             "textoCinco":"Tracción: 4x4"
         }
     }, {
-        "id": "2",
+        "id": "2", 
         "categoria": "1",
-        "imagen": "http://fransanco.com/admin/uploads/cargador.png",
+        "imagen": "img/cargador.png",
         "title": "Mini cargador Caterpillar 259D",
         "detalle": {
             "textoUno": "Modelo de motor: CAT C3 .3B DIT (turbo)",
@@ -24,7 +24,7 @@
     }, {
         "id": "3",
         "categoria": "1",
-        "imagen": "http://fransanco.com/admin/uploads/Retroexcavadora_Cat_416E.png",
+        "imagen": "img/Retroexcavadora_Cat_416E.png",
         "title": "Retro excavadora Caterpillar 416E",
         "detalle": {
             "textoUno": "Modelo de motor: 3054C DINA",
@@ -37,7 +37,7 @@
     }, {
         "id": "4",
         "categoria": "1",
-        "imagen": "http://fransanco.com/admin/uploads/Retoexcavadora_Case_770_Exmagnum.png",
+        "imagen": "img/Retoexcavadora_Case_770_Exmagnum.png",
         "title": "Retro excavadora case 770 exmagnum",
         "detalle": {
             "textoUno": "Modelo de motor: S8000 FPT",
@@ -51,7 +51,7 @@
     }, {
         "id": "5",
         "categoria": "1",
-        "imagen": "http://fransanco.com/admin/uploads/Retroexcavadora_Case_580_SuperN.png",
+        "imagen": "img/Retroexcavadora_Case_580_SuperN.png",
         "title": "Retroexcavadora case 580 Super N",
         "detalle": {
             "textoUno": "Modelo de motor: FPT F5BFL413B Turbo cargado",
@@ -64,7 +64,7 @@
     }, {
         "id": "6",
         "categoria": "1",
-        "imagen": "http://fransanco.com/admin/uploads/Excavadora_HidraYulica_Caterpillar_320C_1.png",
+        "imagen": "img/Excavadora_HidraYulica_Caterpillar_320C_1.png",
         "title": "Excavadora hidráulica Caterpillar 330C",
         "detalle": {
             "textoUno": "Modelo de motor: CAT C-9 ATAAC",
@@ -76,7 +76,7 @@
     }, {
         "id": "7",
         "categoria": "1",
-        "imagen": "http://fransanco.com/admin/uploads/excavadora_lovol__1.png",
+        "imagen": "img/excavadora_lovol__1.png",
         "title": "Excavadora Lovol FR220D",
         "detalle": {
             "textoUno": "Modelo de motor: Cummins 6BTAA5.9-C150",
@@ -88,7 +88,7 @@
     }, {
         "id": "8",
         "categoria": "2",
-        "imagen": "http://fransanco.com/admin/uploads/Montacargas_HELI_CPCD25__2.png",
+        "imagen": "img/Montacargas_HELI_CPCD25__2.png",
         "title": "Montacargas HELI CPCD25",
         "detalle": {
             "textoUno": "motor a Diesel",
@@ -102,7 +102,7 @@
     }, {
         "id": "9",
         "categoria": "2",
-        "imagen": "http://fransanco.com/admin/uploads/Montacargas_Caterpillar_DP40N1.png",
+        "imagen": "img/Montacargas_Caterpillar_DP40N1.png",
         "title": "Montacargas Caterpillar DP40N1",
         "detalle": {
             "textoUno": "motor eléctrico",
@@ -116,7 +116,7 @@
     }, {
         "id": "10",
         "categoria": "2",
-        "imagen": "http://fransanco.com/admin/uploads/nisa.png",
+        "imagen": "img/nisa.png",
         "title": "Montacargas Nissan MPL02A25LV ECO F005",
         "detalle": {
             "topoMotor": "motor a gas",
@@ -132,7 +132,7 @@
     {
         "id": "11",
         "categoria": "2",
-        "imagen": "http://fransanco.com/admin/uploads/Montacargas_Toyota_8FGU18_2.png",
+        "imagen": "img/Montacargas_Toyota_8FGU18_2.png",
         "title": "Montacargas Toyota 8FGCU16",
         "detalle": {
             "topoMotor": "motor a gas",
@@ -146,7 +146,7 @@
     }, {
         "id": "12",
         "categoria": "2",
-        "imagen": "http://fransanco.com/admin/uploads/Montacargas_Toyota_7FGU25_1.png",
+        "imagen": "img/Montacargas_Toyota_7FGU25_1.png",
         "title": "Montacargas Toyota 7FGU25",
         "detalle": {
             "topoMotor": "motor a gas",
@@ -160,7 +160,7 @@
     }, {
         "id": "13",
         "categoria": "2",
-        "imagen": "http://fransanco.com/admin/uploads/Montacargas_Toyota_F8GCU25_2.png",
+        "imagen": "img/Montacargas_Toyota_F8GCU25_2.png",
         "title": "Montacargas Toyota 8FGU25",
         "detalle": {
             "topoMotor": "motor a gas",
@@ -174,7 +174,7 @@
     }, {
         "id": "14",
         "categoria": "2",
-        "imagen": "http://fransanco.com/admin/uploads/27.png",
+        "imagen": "img/27.png",
         "title": "Plataforma de tijera eléctrica JLG modelo 3369LE",
         "detalle": {
             "tipo": "tijera",
@@ -186,7 +186,7 @@
     }, {
         "id": "15",
         "categoria": "2",
-        "imagen": "http://fransanco.com/admin/uploads/Montacargas_Toyota_30-7FBCU30_3.png",
+        "imagen": "img/Montacargas_Toyota_30-7FBCU30_3.png",
         "title": "Montacargas Toyota 30–7FBCU30",
         "detalle": {
             "topoMotor": "motor eléctrico",
@@ -200,7 +200,7 @@
     }, {
         "id": "16",
         "categoria": "2",
-        "imagen": "http://fransanco.com/admin/uploads/Montacargas_Toyota_30-7FBCU30_1.png",
+        "imagen": "img/Montacargas_Toyota_30-7FBCU30_1.png",
         "title": "Montacargas Toyota 7FGU30",
         "detalle": {
             "topoMotor": "motor a gas",
@@ -214,7 +214,7 @@
     }, {
         "id": "17",
         "categoria": "2",
-        "imagen": "http://fransanco.com/admin/uploads/Montacargas_Toyota_F8GCU25_1.png",
+        "imagen": "img/Montacargas_Toyota_F8GCU25_1.png",
         "title": "Montacargas Toyota 8FGCU25",
         "detalle": {
             "topoMotor": "motor a gas",
@@ -228,7 +228,7 @@
     }, {
         "id": "18",
         "categoria": "2",
-        "imagen": "http://fransanco.com/admin/uploads/Plataforma_de_tijeras_modelo2030_1.png",
+        "imagen": "img/Plataforma_de_tijeras_modelo2030_1.png",
         "title": "Plataforma de tijera eléctrica JLG modelo 2030",
         "detalle": {
             "alturaMaxima": "8.10 m",
@@ -239,7 +239,7 @@
     }, {
         "id": "19",
         "categoria": "2",
-        "imagen": "http://fransanco.com/admin/uploads/Montacargas_Clark_1.png",
+        "imagen": "img/Montacargas_Clark_1.png",
         "title": "Montacargas Clark NPR 17",
         "detalle": {
             "topoMotor": "motor eléctrico",
@@ -253,7 +253,7 @@
     }, {
         "id": "20",
         "categoria": "2",
-        "imagen": "http://fransanco.com/admin/uploads/YALE-PATINE.png",
+        "imagen": "img/YALE-PATINE.png",
         "title": "Patín hidráulico Yale Esc035acn36te088",
         "detalle": {
             "topoMotor": "motor eléctrico",
@@ -267,7 +267,7 @@
     }, {
         "id": "21",
         "categoria": "3",
-        "imagen": "http://fransanco.com/admin/uploads/Camion_bomberos_american_lafrance.png",
+        "imagen": "img/Camion_bomberos_american_lafrance.png",
         "title": "Camión de Bomberos American LaFrance 2000",
         "detalle": {
             "det": "American LaFrance",
@@ -284,7 +284,7 @@
     }, {
         "id": "22",
         "categoria": "3",
-        "imagen": "http://fransanco.com/admin/uploads/Vactor_VACCON.png",
+        "imagen": "img/Vactor_VACCON.png",
         "title": "VAC CON 2019",
         "detalle": {
             "det": "Camión para desazolve de drenajes",
@@ -295,7 +295,9 @@
         }
     }, {
         "id": "23",
-        "imagen": "http://fransanco.com/admin/uploads/Escarifcadora.png",
+        "categoria": "4",
+
+        "imagen": "img/Escarifcadora.png",
         "title": "Escarificadora Maker MC8",
         "detalle": {
             "det": "Accionada con motor Honda/Kohler 5.5hp",
@@ -303,7 +305,8 @@
         }
     }, {
         "id": "24",
-        "imagen": "http://fransanco.com/admin/uploads/Malacate_1_tonelada.png",
+        "categoria": "4",
+        "imagen": "img/Malacate_1_tonelada.png",
         "title": "Malacate de piso Maker",
         "detalle": {
             "capacidadCarga": "Capacidad de carga 1 tonelada",
@@ -313,7 +316,8 @@
         }
     }, {
         "id": "25",
-        "imagen": "http://fransanco.com/admin/uploads/Vibrador.de.concreto.honda.png",
+        "categoria": "4",
+        "imagen": "img/Vibrador.de.concreto.honda.png",
         "title": "Vibrador de concreto Maker",
         "detalle": {
             "motor": "Accionado por motor a gasolina Honda5.5/Kohler 6.5hp",
@@ -322,7 +326,8 @@
         }
     }, {
         "id": "26",
-        "imagen": "http://fransanco.com/admin/uploads/Apisonadora.de.cuatrotiempos.png",
+        "categoria": "4",
+        "imagen": "img/Apisonadora.de.cuatrotiempos.png",
         "title": "Apisonadora de cuatro tiempos BM4T-R",
         "detalle": {
             "motor": "Motor Robin EH12",
@@ -334,7 +339,7 @@
     }, {
         "id": "27",
         "categoria": "4",
-        "imagen": "http://fransanco.com/admin/uploads/revolvedora_de_concreto.png",
+        "imagen": "img/revolvedora_de_concreto.png",
         "title": "Revolvedora de concreto acero inoxidable",
         "detalle": {
             "motor": "Accionado con motor Kohler 9.5 hp",
@@ -344,7 +349,7 @@
     }, {
         "id": "28",
         "categoria": "4",
-        "imagen": "http://fransanco.com/admin/uploads/Placa_Vibratoria_Maker.png",
+        "imagen": "img/Placa_Vibratoria_Maker.png",
         "title": "Placa Vibratoria Maker PM90",
         "detalle": {
             "motor": "Accionada con motor Honda 5.5hp",
@@ -353,7 +358,7 @@
     }, {
         "id": "29",
         "categoria": "4",
-        "imagen": "http://fransanco.com/admin/uploads/Malacate_500kg.png",
+        "imagen": "img/Malacate_500kg.png",
         "title": "Malacate Maker MM500",
         "detalle": {
             "motor": "Accionada con motor Honda 5.5hp/Kohler 7hp",
@@ -362,7 +367,7 @@
     }, {
         "id": "30",
         "categoria": "4",
-        "imagen": "http://fransanco.com/admin/uploads/Regla-vibratoria.png",
+        "imagen": "img/Regla-vibratoria.png",
         "title": "Regla Vibratoria Maker RM-P5M",
         "detalle": {
             "motor": "Accionada con motor Honda GX35",
@@ -371,7 +376,7 @@
     }, {
         "id": "31",
         "categoria": "4",
-        "imagen": "http://fransanco.com/admin/uploads/Allanadora_de_concreto_Maker.png",
+        "imagen": "img/Allanadora_de_concreto_Maker.png",
         "title": "Allanadora de concreto Maker 36",
         "detalle": {
             "motor": "Accionada con motor Honda / Kohler 5.5hp",
@@ -380,7 +385,7 @@
     }, {
         "id": "32",
         "categoria": "4",
-        "imagen": "http://fransanco.com/admin/uploads/cortadora_de_piso_maker.png",
+        "imagen": "img/cortadora_de_piso_maker.png",
         "title": "Cortadora de piso Maker CM16",
         "detalle": {
             "motor": "Accionada con motor a gasolina Honda 13hp / Kohler 14hp",
@@ -390,7 +395,7 @@
     }, {
         "id": "33",
         "categoria": "4",
-        "imagen": "http://fransanco.com/admin/uploads/Furius_Fix161.png",
+        "imagen": "img/Furius_Fix161.png",
         "title": "Furius Inverter Fix 161",
         "detalle": {
             "voltaje": "110V 50 / 60Hz",
@@ -404,7 +409,7 @@
     }, {
         "id": "34",
         "categoria": "4",
-        "imagen": "http://fransanco.com/admin/uploads/EliteARC_130S.png",
+        "imagen": "img/EliteARC_130S.png",
         "title": "Elite ARC 130S",
         "detalle": {
             "voltaje": "110V - 1 ph (+ / 10%)",
@@ -421,7 +426,7 @@
     }, {
         "id": "35",
         "categoria": "4",
-        "imagen": "http://fransanco.com/admin/uploads/Furius_FIX_181_mini.png",
+        "imagen": "img/Furius_FIX_181_mini.png",
         "title": "Furius Inverter FIX 181 mini",
         "detalle": {
             "voltaje": "110/220V 50/60Hz",
@@ -436,7 +441,7 @@
     }, {
         "id": "36",
         "categoria": "4",
-        "imagen": "http://fransanco.com/admin/uploads/Sweiss_Skymax1550.png",
+        "imagen": "img/Sweiss_Skymax1550.png",
         "title": "Sweiss Skymax 1550",
         "detalle": {
 

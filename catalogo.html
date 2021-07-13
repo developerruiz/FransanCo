@@ -111,20 +111,38 @@
         <h5 class="modal-title" id="exampleModalLabel">Contactános</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-      <div class="modal-body">
+      <!-- form -->
+      <form class="modal-body" id="" name="formulario1">
         <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label">Correo eléctronico</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          <label class="form-label">Nombre</label>
+          <input type="text" name="nombre" id="" required class="form-control" required>
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Correo electrónico</label>
+          <input type="email" name="email" id="" required class="form-control" required>
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Teléfono</label>
+          <input type="number" name="numero" id="" required class="form-control" required>
         </div>
         <div class="mb-3">
           <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>  
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
+          <textarea class="form-control" id="exampleFormControlTextarea1" name="asunto" rows="3"></textarea>
+        </div> 
+        <select class="form-select my-3" name="cosa" onchange="cambia()">
+          <option value="0">Seleccione</option>
+          <option value="1">Maquinaria pesada</option>
+          <option value="2">Plataformas</option>
+          <option value="3">Vehiculos especiales</option>
+          <option value="4">Maquinaria ligera</option>
+        </select>
+        
+        <select class="form-select" name="opt">
+          <option value="-">-
+        </select>
+        <button type="submit"class="btn btn-primary my-5">Save changes</button>
+      </form>
+      
     </div>
   </div>
 </div>
@@ -516,6 +534,86 @@
   <script src="js/especiales.js"></script>
   <script src="js/maLigera.js"></script>
   <script src="js/main.js"></script>
+
+
+  <script type="text/javascript">
+    //1) Definir Las Variables Correspondintes
+    var opt_1 = new Array ("-", "Cargador frontal Caterpillar 980H", "Mini cargador Caterpillar 259D ", "Retro excavadora Caterpillar 416E", "Retro excavadora case 770 exmagnum","Retroexcavadora case 580 Super N","Excavadora hidráulica Caterpillar 330C","Excavadora Lovol FR220D");
+    var opt_2 = new Array ("-", "Montacargas HELI CPCD25", "Montacargas Caterpillar DP40N1", "Montacargas Nissan MPL02A25LV ECO F005", "Montacargas Toyota 8FGCU16","Montacargas Toyota 7FGU25","Montacargas Toyota 8FGU25","Plataforma de tijera eléctrica JLG modelo 3369LE","Montacargas Toyota 30–7FBCU30","Montacargas Toyota 7FGU30","Montacargas Toyota 8FGCU25","Plataforma de tijera eléctrica JLG modelo 2030","Montacargas Clark NPR 17","Patín hidráulico Yale Esc035acn36te088");
+    var opt_3 = new Array ("-", "Google Chrome", "Linux", "opera", "...");
+    var opt_4 = new Array ("-", "MSI", "ASUS", "GIGABYTE", "...");
+    // 2) crear una funcion que permita ejecutar el cambio dinamico
+    
+    function cambia(){
+      var cosa;
+      //Se toma el vamor de la "cosa seleccionada"
+      cosa = document.formulario1.cosa[document.formulario1.cosa.selectedIndex].value;
+      //se chequea si la "cosa" esta definida
+      if(cosa!=0){
+        //selecionamos las cosas Correctas
+        mis_opts=eval("opt_" + cosa);
+        //se calcula el numero de cosas
+        num_opts=mis_opts.length;
+        //marco el numero de opt en el select
+        document.formulario1.opt.length = num_opts;
+        //para cada opt del array, la pongo en el select
+        for(i=0; i<num_opts; i++){
+          document.formulario1.opt.options[i].value=mis_opts[i];
+          document.formulario1.opt.options[i].text=mis_opts[i];
+        }
+        }else{
+          //si no habia ninguna opt seleccionada, elimino las cosas del select
+          document.formulario1.opt.length = 1;
+          //ponemos un guion en la unica opt que he dejado
+          document.formulario1.opt.options[0].value="-";
+          document.formulario1.opt.options[0].text="-";
+        }
+        //hacer un reset de las opts
+        document.formulario1.opt.options[0].selected = true;
+        
+      }
+    
+    
+  
+  </script>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+// <![CDATA[  <-- For SVG support
+if ('WebSocket' in window) {
+  (function () {
+    function refreshCSS() {
+      var sheets = [].slice.call(document.getElementsByTagName("link"));
+      var head = document.getElementsByTagName("head")[0];
+      for (var i = 0; i < sheets.length; ++i) {
+        var elem = sheets[i];
+        var parent = elem.parentElement || head;
+        parent.removeChild(elem);
+        var rel = elem.rel;
+        if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+          var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+          elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+        }
+        parent.appendChild(elem);
+      }
+    }
+    var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+    var address = protocol + window.location.host + window.location.pathname + '/ws';
+    var socket = new WebSocket(address);
+    socket.onmessage = function (msg) {
+      if (msg.data == 'reload') window.location.reload();
+      else if (msg.data == 'refreshcss') refreshCSS();
+    };
+    if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+      console.log('Live reload enabled.');
+      sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+    }
+  })();
+}
+else {
+  console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+}
+// ]]>
+</script>
 
 </body>
 

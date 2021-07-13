@@ -25,12 +25,10 @@ const fetchData = async () => {
         // console.log(data);
         pintarCards(data)
 
-
     } catch (error) {
         console.log(error)
     }
 }
-
 
 const pintarCards = data => {
 
@@ -41,7 +39,7 @@ const pintarCards = data => {
         console.log(maquinariaPesada)
 
         maquinariaPesada.forEach(producto => {
-            // console.log(producto);
+       
             templateCard.querySelector('h5').textContent = producto.title
             templateCard.querySelector('img').setAttribute('src', producto.imagen)
             templateCard.querySelector('.btn-warning').dataset.id = producto.id
@@ -52,15 +50,9 @@ const pintarCards = data => {
             templateCard.querySelectorAll('p')[4].textContent = producto.detalle.textoCinco
             templateCard.querySelectorAll('p')[5].textContent = producto.detalle.textoSeis
             templateCard.querySelectorAll('p')[6].textContent = producto.detalle.textoSiete
-            
-
-            // templateCard.querySelectorAll('p')[4].textContent = producto.detalle.textoCinco
-            // templateCard.querySelectorAll('p')[5].textContent = producto.detalle.textoSeis
-
 
             for (let i = 0; i < templateCard.querySelectorAll('p').length; i++) {
 
-                // templateCard.querySelectorAll('p')[i].style.visibility = 'none'
                 templateCard.querySelectorAll('p')[i].style.height = '0px'
                 templateCard.querySelectorAll('p')[i].style.display = 'none'
 
@@ -78,7 +70,7 @@ const pintarCards = data => {
         console.log(montacargas)
 
         montacargas.forEach(producto => {
-            // console.log(producto);
+
             templateCard2.querySelector('h5').textContent = producto.title
             templateCard2.querySelector('img').setAttribute('src', producto.imagen)
             templateCard2.querySelector('.btn-warning').dataset.id = producto.id
@@ -105,82 +97,9 @@ const pintarCards = data => {
         });
         cards.appendChild(fragment)
     }
-    // const opcion3 = () => {
-    //     let vehiculosEspeciales = data.filter(function (el) {
-    //         return (el.categoria == 3)
-    //     })
-    //     console.log(vehiculosEspeciales)
-
-    //     vehiculosEspeciales.forEach(producto => {
-    //         // console.log(producto);
-    //         templateCard.querySelector('h5').textContent = producto.title
-    //         templateCard.querySelector('img').setAttribute('src', producto.imagen)
-    //         templateCard.querySelector('.btn-warning').dataset.id = producto.id
-
-    //         templateCard.querySelectorAll('p')[0].textContent = producto.detalle.textoUno
-    //         templateCard.querySelectorAll('p')[1].textContent = producto.detalle.textoDos
-    //         templateCard.querySelectorAll('p')[2].textContent = producto.detalle.textoTres
-    //         templateCard.querySelectorAll('p')[3].textContent = producto.detalle.textoCuatro
-    //         // templateCard.querySelectorAll('p')[4].textContent = producto.detalle.textoCinco
-    //         // templateCard.querySelectorAll('p')[5].textContent = producto.detalle.textoSeis
-
-
-
-    //         for (let i = 0; i < templateCard.querySelectorAll('p').length; i++) {
-
-    //             // templateCard.querySelectorAll('p')[i].style.visibility = 'none'
-    //             templateCard.querySelectorAll('p')[i].style.height = '0px'
-    //             templateCard.querySelectorAll('p')[i].style.display = 'none'
-
-
-    //         }
-    //         const clone = templateCard.cloneNode(true)
-    //         fragment.appendChild(clone)
-    //     });
-    //     cards.appendChild(fragment)
-    // }
-    // const opcion4 = () => {
-    //     let maquinariaLigera = data.filter(function (el) {
-    //         return (el.categoria == 4)
-    //     })
-    //     console.log(maquinariaLigera)
-
-    //     maquinariaLigera.forEach(producto => {
-    //         // console.log(producto);
-    //         templateCard.querySelector('h5').textContent = producto.title
-    //         templateCard.querySelector('img').setAttribute('src', producto.imagen)
-    //         templateCard.querySelector('.btn-warning').dataset.id = producto.id
-
-    //         templateCard.querySelectorAll('p')[0].textContent = producto.detalle.textoUno
-    //         templateCard.querySelectorAll('p')[1].textContent = producto.detalle.textoDos
-    //         templateCard.querySelectorAll('p')[2].textContent = producto.detalle.textoTres
-    //         templateCard.querySelectorAll('p')[3].textContent = producto.detalle.textoCuatro
-    //         // templateCard.querySelectorAll('p')[4].textContent = producto.detalle.textoCinco
-    //         // templateCard.querySelectorAll('p')[5].textContent = producto.detalle.textoSeis
-
-
-
-    //         for (let i = 0; i < templateCard.querySelectorAll('p').length; i++) {
-
-    //             // templateCard.querySelectorAll('p')[i].style.visibility = 'none'
-    //             templateCard.querySelectorAll('p')[i].style.height = '0px'
-    //             templateCard.querySelectorAll('p')[i].style.display = 'none'
-
-
-    //         }
-    //         const clone = templateCard.cloneNode(true)
-    //         fragment.appendChild(clone)
-    //     });
-    //     cards.appendChild(fragment)
-    // }
-    // console.log(data)
-    // FUNCIONES PARA LLAMARA A CADA VEHICULO
+  
 
     opcion1()
-    // opcion2()
-    // opcion3()
-    // opcion4()
-
 
 
 }
@@ -208,11 +127,6 @@ const tomarDatos = obejeto => {
         textoCinco: obejeto.querySelectorAll('p')[4].textContent,
         textoSeis: obejeto.querySelectorAll('p')[5].textContent,
         textoSiete: obejeto.querySelectorAll('p')[6].textContent,
-        // textoCuatro: obejeto.querySelectorAll('p')[3].textContent,
-
-        // textoCinco: obejeto.querySelectorAll('p')[4].textContent,
-        // textoSeis: obejeto.querySelectorAll('p')[5].textContent,
-        // detalle: obejeto.querySelectorAll('p')[0]
     }
 
     console.log(producto);
@@ -225,11 +139,8 @@ const tomarDatos = obejeto => {
 
 const pintarProductos = () => {
 
-    // // console.log(carrito);
     items.innerHTML = ''
     items.style.display = 'block'
-
-    // items.style.zIndex = '999999'    
     items.style.position = 'fixed'
     fondoModal.style.background = "rgba(0,0,0,0.8)"
     fondoModal.style.width = '100vw'
@@ -262,7 +173,6 @@ fondoModal.addEventListener('click', function () {
     // console.log(this);
     // pintarProductos()
     // items.innerHTML = ''
-
     fondoModal.style.background = "none"
     fondoModal.style.width = '0'
     fondoModal.style.height = '0'
