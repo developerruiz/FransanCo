@@ -54,14 +54,14 @@
       <div class="redes">
         <ul>
           <li>
-            <a href="">
+            <a href="https://www.facebook.com/fransancomx/">
               <i class="fab fa-facebook-square"></i>
             </a>
           </li>
           <li>
-            <a href="">
+            <!-- <a href="">
               <i class="fab fa-instagram"></i>
-            </a>
+            </a> -->
           </li>
         </ul>
       </div>
@@ -112,7 +112,7 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <!-- form -->
-      <form class="modal-body" id="" name="formulario1">
+      <form class="modal-body" id="" name="formulario1" method="POST" action="catalogo.php">
         <div class="mb-3">
           <label class="form-label">Nombre</label>
           <input type="text" name="nombre" id="" required class="form-control" required>
@@ -123,11 +123,11 @@
         </div>
         <div class="mb-3">
           <label class="form-label">Teléfono</label>
-          <input type="number" name="numero" id="" required class="form-control" required>
+          <input type="number" name="telefono" id="" required class="form-control" required>
         </div>
         <div class="mb-3">
           <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" name="asunto" rows="3"></textarea>
+          <textarea class="form-control" id="exampleFormControlTextarea1" name="mensaje" rows="3"></textarea>
         </div> 
         <select class="form-select my-3" name="cosa" onchange="cambia()">
           <option value="0">Seleccione</option>
@@ -137,7 +137,7 @@
           <option value="4">Maquinaria ligera</option>
         </select>
         
-        <select class="form-select" name="opt">
+        <select class="form-select" name="opt" name="vehiculo"> 
           <option value="-">-
         </select>
         <button type="submit"class="btn btn-primary my-5">Save changes</button>
@@ -271,20 +271,12 @@
           <p></p>
           <p></p>
 
-
-
           <button class="btn btn-warning" type="button">Ver detalles</button>
           <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Solicitar Info.</button>
 
-          
-
         </div>
       </div>
-    </div>
-    
-
-
-    
+    </div>    
   </template>
   
   
@@ -329,8 +321,8 @@
           <p></p>
           <p></p>
 
-          <button class="btn btn-warning" type="button">Button</button>
-          <button class="btn btn-info" type="button">Enviar mensaje</button>
+          <button class="btn btn-warning" type="button">Ver detalles</button>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Solicitar Info.</button>
 
         </div>
       </div>
@@ -372,8 +364,8 @@
           <p></p>
           <p></p>
 
-          <button class="btn btn-warning" type="button">Button</button>
-          <button class="btn btn-info" type="button">Enviar mensaje</button>
+          <button class="btn btn-warning" type="button">Ver detalles</button>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Solicitar Info.</button>
 
         </div>
       </div>
@@ -416,8 +408,8 @@
           <p></p>
           <p></p>
 
-          <button class="btn btn-warning" type="button">Button</button>
-          <button class="btn btn-info" type="button">Enviar mensaje</button>
+          <button class="btn btn-warning" type="button">Ver detalles</button>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Solicitar Info.</button>
 
         </div>
       </div>
@@ -512,7 +504,6 @@
       <p>&copy;Fransanco 2021</p>
     </div>
 
-
   </footer>
 
   <!-- bootstrap -->
@@ -540,8 +531,8 @@
     //1) Definir Las Variables Correspondintes
     var opt_1 = new Array ("-", "Cargador frontal Caterpillar 980H", "Mini cargador Caterpillar 259D ", "Retro excavadora Caterpillar 416E", "Retro excavadora case 770 exmagnum","Retroexcavadora case 580 Super N","Excavadora hidráulica Caterpillar 330C","Excavadora Lovol FR220D");
     var opt_2 = new Array ("-", "Montacargas HELI CPCD25", "Montacargas Caterpillar DP40N1", "Montacargas Nissan MPL02A25LV ECO F005", "Montacargas Toyota 8FGCU16","Montacargas Toyota 7FGU25","Montacargas Toyota 8FGU25","Plataforma de tijera eléctrica JLG modelo 3369LE","Montacargas Toyota 30–7FBCU30","Montacargas Toyota 7FGU30","Montacargas Toyota 8FGCU25","Plataforma de tijera eléctrica JLG modelo 2030","Montacargas Clark NPR 17","Patín hidráulico Yale Esc035acn36te088");
-    var opt_3 = new Array ("-", "Google Chrome", "Linux", "opera", "...");
-    var opt_4 = new Array ("-", "MSI", "ASUS", "GIGABYTE", "...");
+    var opt_3 = new Array ("-", "Camión de Bomberos American LaFrance 2000", "VAC CON 2019");
+    var opt_4 = new Array ("-", "Escarificadora Maker MC8", "Malacate de piso Maker", "Vibrador de concreto Maker", "Apisonadora de cuatro tiempos BM4T-R","Revolvedora de concreto acero inoxidable","Placa Vibratoria Maker PM90","Malacate Maker MM500","Regla Vibratoria Maker RM-P5M","Allanadora de concreto Maker 36","Cortadora de piso Maker CM16","Furius Inverter Fix 161","Elite ARC 130S0","Furius Inverter FIX 181 mini","Sweiss Skymax 1550");
     // 2) crear una funcion que permita ejecutar el cambio dinamico
     
     function cambia(){
@@ -572,9 +563,7 @@
         document.formulario1.opt.options[0].selected = true;
         
       }
-    
-    
-  
+      
   </script>
 <!-- Code injected by live-server -->
 <script type="text/javascript">
