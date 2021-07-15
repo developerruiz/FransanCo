@@ -23,8 +23,10 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
-<!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
 </head>
 
 <body>
@@ -38,7 +40,7 @@
       </div>
 
       <div class="menu">
-        <a href="index.html" >
+        <a href="index.html">
           <li class="active">Inicio</li>
         </a>
         <a href="nosotros.html">
@@ -97,55 +99,60 @@
 
   </header>
   <!-- FIN MENU MOVIL -->
-  
+
   <!-- BANNER -->
   <!-- MAIN -->
   <section class="main">
 
 
     <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Contactános</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Contactános</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <!-- form -->
+          <form class="modal-body" id="" name="formulario1" method="POST" action="catalogo.php">
+            <div class="mb-3">
+              <label class="form-label">Nombre</label>
+              <input type="text" name="nombre" id="" required class="form-control" required>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Correo electrónico</label>
+              <input type="email" name="email" id="" required class="form-control" required>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Teléfono</label>
+              <input type="number" name="telefono" id="" required class="form-control" required>
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label" required>Mensaje</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" name="mensaje" rows="3"></textarea>
+            </div>
+            <select class="form-select my-3" name="cosa" onchange="cambia()">
+              <option value="0">Seleccione</option>
+              <option value="1">Maquinaria pesada</option>
+              <option value="2">Plataformas</option>
+              <option value="3">Vehiculos especiales</option>
+              <option value="4">Maquinaria ligera</option>
+            </select>
+
+            <select class="form-select" name="opt" name="vehiculo">
+              <option value="-">-
+            </select>
+            <div class="d-grid gap-2">
+              <!-- <button class="btn btn-primary" type="button">Button</button>
+              <button class="btn btn-primary" type="button">Button</button> -->
+              <button type="submit" class="btn btn-warning my-5 p-3 d-grid gap-2">Enviar</button>
+            </div>
+          
+          </form>
+
+        </div>
       </div>
-      <!-- form -->
-      <form class="modal-body" id="" name="formulario1" method="POST" action="catalogo.php">
-        <div class="mb-3">
-          <label class="form-label">Nombre</label>
-          <input type="text" name="nombre" id="" required class="form-control" required>
-        </div>
-        <div class="mb-3">
-          <label class="form-label">Correo electrónico</label>
-          <input type="email" name="email" id="" required class="form-control" required>
-        </div>
-        <div class="mb-3">
-          <label class="form-label">Teléfono</label>
-          <input type="number" name="telefono" id="" required class="form-control" required>
-        </div>
-        <div class="mb-3">
-          <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" name="mensaje" rows="3"></textarea>
-        </div> 
-        <select class="form-select my-3" name="cosa" onchange="cambia()">
-          <option value="0">Seleccione</option>
-          <option value="1">Maquinaria pesada</option>
-          <option value="2">Plataformas</option>
-          <option value="3">Vehiculos especiales</option>
-          <option value="4">Maquinaria ligera</option>
-        </select>
-        
-        <select class="form-select" name="opt" name="vehiculo"> 
-          <option value="-">-
-        </select>
-        <button type="submit"class="btn btn-primary my-5">Save changes</button>
-      </form>
-      
     </div>
-  </div>
-</div>
 
     <!-- Nuestro menú -->
     <section class="menu-platos" id="nuestro_menu">
@@ -246,7 +253,7 @@
 
 
 
-        
+
     </section>
     <!-- Nuestro Menú -->
 
@@ -272,14 +279,15 @@
           <p></p>
 
           <button class="btn btn-warning" type="button">Ver detalles</button>
-          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Solicitar Info.</button>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Solicitar
+            Info.</button>
 
         </div>
       </div>
-    </div>    
+    </div>
   </template>
-  
-  
+
+
   <template id="template-modal">
     <div class="card modal-card">
       <div class="row no-gutters">
@@ -287,7 +295,7 @@
           <img src="..." class="card-img" alt="...">
         </div>
         <div class="col-md-5">
-          <div class="p-2 parrafos" >
+          <div class="p-2 parrafos">
             <h5 class="card-title" style="font-weight: bold;">Card title</h5>
             <br>
             <p></p>
@@ -303,7 +311,7 @@
       </div>
     </div>
 
-    
+
   </template>
   <!-- fin de templates plataforma-->
 
@@ -322,7 +330,8 @@
           <p></p>
 
           <button class="btn btn-warning" type="button">Ver detalles</button>
-          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Solicitar Info.</button>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Solicitar
+            Info.</button>
 
         </div>
       </div>
@@ -365,7 +374,8 @@
           <p></p>
 
           <button class="btn btn-warning" type="button">Ver detalles</button>
-          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Solicitar Info.</button>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Solicitar
+            Info.</button>
 
         </div>
       </div>
@@ -409,7 +419,8 @@
           <p></p>
 
           <button class="btn btn-warning" type="button">Ver detalles</button>
-          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Solicitar Info.</button>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Solicitar
+            Info.</button>
 
         </div>
       </div>
@@ -449,23 +460,7 @@
           <p>Actualmente somos una empresa dedicada al arrendamiento y compraventa de maquinaria para la
             construcción y vehículos especiales, así como montacargas y elevadores.</p>
         </div>
-        <div class="cont-li">
-          <div class="cont-li-title">
-            <h6>Lorem, ipsum dolor.</h6>
-          </div>
-          <nav class="footer-nav">
-            <ul class="d-flex">
-              <li><a href=""><img src="img/service1.jpg" alt=""></a></li>
-              <li><a href=""><img src="img/service1.jpg" alt=""></a></li>
-              <li><a href=""><img src="img/service1.jpg" alt=""></a></li>
-            </ul>
-            <ul class="d-flex">
-              <li><a href=""><img src="img/service1.jpg" alt=""></a></li>
-              <li><a href=""><img src="img/service1.jpg" alt=""></a></li>
-              <li><a href=""><img src="img/service1.jpg" alt=""></a></li>
-            </ul>
-          </nav>
-        </div>
+
         <div class="cont-li">
           <div class="cont-li-title">
             <h6>Menú</h6>
@@ -501,7 +496,7 @@
 
     </div>
     <div class="copy" style="font-size: 12px; color: #fff;">
-      <p>&copy;Fransanco 2021</p>
+      <p>&copy;Fransanco2021</p>
     </div>
 
   </footer>
@@ -529,80 +524,89 @@
 
   <script type="text/javascript">
     //1) Definir Las Variables Correspondintes
-    var opt_1 = new Array ("-", "Cargador frontal Caterpillar 980H", "Mini cargador Caterpillar 259D ", "Retro excavadora Caterpillar 416E", "Retro excavadora case 770 exmagnum","Retroexcavadora case 580 Super N","Excavadora hidráulica Caterpillar 330C","Excavadora Lovol FR220D");
-    var opt_2 = new Array ("-", "Montacargas HELI CPCD25", "Montacargas Caterpillar DP40N1", "Montacargas Nissan MPL02A25LV ECO F005", "Montacargas Toyota 8FGCU16","Montacargas Toyota 7FGU25","Montacargas Toyota 8FGU25","Plataforma de tijera eléctrica JLG modelo 3369LE","Montacargas Toyota 30–7FBCU30","Montacargas Toyota 7FGU30","Montacargas Toyota 8FGCU25","Plataforma de tijera eléctrica JLG modelo 2030","Montacargas Clark NPR 17","Patín hidráulico Yale Esc035acn36te088");
-    var opt_3 = new Array ("-", "Camión de Bomberos American LaFrance 2000", "VAC CON 2019");
-    var opt_4 = new Array ("-", "Escarificadora Maker MC8", "Malacate de piso Maker", "Vibrador de concreto Maker", "Apisonadora de cuatro tiempos BM4T-R","Revolvedora de concreto acero inoxidable","Placa Vibratoria Maker PM90","Malacate Maker MM500","Regla Vibratoria Maker RM-P5M","Allanadora de concreto Maker 36","Cortadora de piso Maker CM16","Furius Inverter Fix 161","Elite ARC 130S0","Furius Inverter FIX 181 mini","Sweiss Skymax 1550");
+    var opt_1 = new Array("-", "Cargador frontal Caterpillar 980H", "Mini cargador Caterpillar 259D ",
+      "Retro excavadora Caterpillar 416E", "Retro excavadora case 770 exmagnum", "Retroexcavadora case 580 Super N",
+      "Excavadora hidráulica Caterpillar 330C", "Excavadora Lovol FR220D");
+    var opt_2 = new Array("-", "Montacargas HELI CPCD25", "Montacargas Caterpillar DP40N1",
+      "Montacargas Nissan MPL02A25LV ECO F005", "Montacargas Toyota 8FGCU16", "Montacargas Toyota 7FGU25",
+      "Montacargas Toyota 8FGU25", "Plataforma de tijera eléctrica JLG modelo 3369LE",
+      "Montacargas Toyota 30–7FBCU30", "Montacargas Toyota 7FGU30", "Montacargas Toyota 8FGCU25",
+      "Plataforma de tijera eléctrica JLG modelo 2030", "Montacargas Clark NPR 17",
+      "Patín hidráulico Yale Esc035acn36te088");
+    var opt_3 = new Array("-", "Camión de Bomberos American LaFrance 2000", "VAC CON 2019");
+    var opt_4 = new Array("-", "Escarificadora Maker MC8", "Malacate de piso Maker", "Vibrador de concreto Maker",
+      "Apisonadora de cuatro tiempos BM4T-R", "Revolvedora de concreto acero inoxidable",
+      "Placa Vibratoria Maker PM90", "Malacate Maker MM500", "Regla Vibratoria Maker RM-P5M",
+      "Allanadora de concreto Maker 36", "Cortadora de piso Maker CM16", "Furius Inverter Fix 161", "Elite ARC 130S0",
+      "Furius Inverter FIX 181 mini", "Sweiss Skymax 1550");
     // 2) crear una funcion que permita ejecutar el cambio dinamico
-    
-    function cambia(){
+
+    function cambia() {
       var cosa;
       //Se toma el vamor de la "cosa seleccionada"
       cosa = document.formulario1.cosa[document.formulario1.cosa.selectedIndex].value;
       //se chequea si la "cosa" esta definida
-      if(cosa!=0){
+      if (cosa != 0) {
         //selecionamos las cosas Correctas
-        mis_opts=eval("opt_" + cosa);
+        mis_opts = eval("opt_" + cosa);
         //se calcula el numero de cosas
-        num_opts=mis_opts.length;
+        num_opts = mis_opts.length;
         //marco el numero de opt en el select
         document.formulario1.opt.length = num_opts;
         //para cada opt del array, la pongo en el select
-        for(i=0; i<num_opts; i++){
-          document.formulario1.opt.options[i].value=mis_opts[i];
-          document.formulario1.opt.options[i].text=mis_opts[i];
+        for (i = 0; i < num_opts; i++) {
+          document.formulario1.opt.options[i].value = mis_opts[i];
+          document.formulario1.opt.options[i].text = mis_opts[i];
         }
-        }else{
-          //si no habia ninguna opt seleccionada, elimino las cosas del select
-          document.formulario1.opt.length = 1;
-          //ponemos un guion en la unica opt que he dejado
-          document.formulario1.opt.options[0].value="-";
-          document.formulario1.opt.options[0].text="-";
-        }
-        //hacer un reset de las opts
-        document.formulario1.opt.options[0].selected = true;
-        
+      } else {
+        //si no habia ninguna opt seleccionada, elimino las cosas del select
+        document.formulario1.opt.length = 1;
+        //ponemos un guion en la unica opt que he dejado
+        document.formulario1.opt.options[0].value = "-";
+        document.formulario1.opt.options[0].text = "-";
       }
-      
+      //hacer un reset de las opts
+      document.formulario1.opt.options[0].selected = true;
+
+    }
   </script>
-<!-- Code injected by live-server -->
-<script type="text/javascript">
-// <![CDATA[  <-- For SVG support
-if ('WebSocket' in window) {
-  (function () {
-    function refreshCSS() {
-      var sheets = [].slice.call(document.getElementsByTagName("link"));
-      var head = document.getElementsByTagName("head")[0];
-      for (var i = 0; i < sheets.length; ++i) {
-        var elem = sheets[i];
-        var parent = elem.parentElement || head;
-        parent.removeChild(elem);
-        var rel = elem.rel;
-        if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
-          var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
-          elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+  <!-- Code injected by live-server -->
+  <script type="text/javascript">
+    // <![CDATA[  <-- For SVG support
+    if ('WebSocket' in window) {
+      (function () {
+        function refreshCSS() {
+          var sheets = [].slice.call(document.getElementsByTagName("link"));
+          var head = document.getElementsByTagName("head")[0];
+          for (var i = 0; i < sheets.length; ++i) {
+            var elem = sheets[i];
+            var parent = elem.parentElement || head;
+            parent.removeChild(elem);
+            var rel = elem.rel;
+            if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+              var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+              elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+            }
+            parent.appendChild(elem);
+          }
         }
-        parent.appendChild(elem);
-      }
+        var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+        var address = protocol + window.location.host + window.location.pathname + '/ws';
+        var socket = new WebSocket(address);
+        socket.onmessage = function (msg) {
+          if (msg.data == 'reload') window.location.reload();
+          else if (msg.data == 'refreshcss') refreshCSS();
+        };
+        if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+          console.log('Live reload enabled.');
+          sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+        }
+      })();
+    } else {
+      console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
     }
-    var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
-    var address = protocol + window.location.host + window.location.pathname + '/ws';
-    var socket = new WebSocket(address);
-    socket.onmessage = function (msg) {
-      if (msg.data == 'reload') window.location.reload();
-      else if (msg.data == 'refreshcss') refreshCSS();
-    };
-    if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
-      console.log('Live reload enabled.');
-      sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
-    }
-  })();
-}
-else {
-  console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
-}
-// ]]>
-</script>
+    // ]]>
+  </script>
 
 </body>
 
