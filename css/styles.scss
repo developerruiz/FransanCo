@@ -902,12 +902,14 @@ footer {
 }
 
 // CATALOGO
-
+.card{
+    background-color: transparent!important;
+}
 .modal-card {
     background-image: url(../img/fondo-card.jpg) !important;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-position: bottom right!important;
+    background-size: cover!important;
+    background-repeat: no-repeat!important;
     background: transparent;
 }
 
