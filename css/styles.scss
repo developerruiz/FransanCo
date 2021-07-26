@@ -24,18 +24,23 @@ html {
 a {
     text-decoration: none !important;
 }
-.card{
+
+.card {
+    background: #000!important;
     // height: 450px;
-    &:hover{
+    &:hover {
         box-shadow: 0px 3px 6px 2px rgba(18, 18, 18, 0.082);
     }
 }
-.btn-success{
-    background: #0c990c!important;
-    &:hover{
-        background: #075c07!important;
+
+.btn-success {
+    background: #0c990c !important;
+
+    &:hover {
+        background: #075c07 !important;
     }
 }
+
 .btn-info {
     background: none !important;
     border: 2px solid $color-naranja !important;
@@ -760,10 +765,8 @@ main {
 
     }
 
-    // CATALOGO
-    // .card {
-    //     border: none !important;
-    // }
+
+
 }
 
 footer {
@@ -901,12 +904,12 @@ footer {
 
 // CATALOGO
 
-// .modal-card{
-//     top: 50%;
-//     left: 50%;
-//     transform: translate(-50%,-50%);
-//     width: 90%;
-// }
+.modal-card {
+    background-image: url(../img/fondo-card.jpg) !important;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 // FIN CATALOGO 
 .card-img,
@@ -948,15 +951,17 @@ footer {
 .parrafos {
     display: flex;
     align-items: center;
-    height: 70%;
+    height: 100%;
     justify-content: center;
     flex-direction: column;
     align-items: flex-start;
-    border: 2px solid  $color-principal;
-    margin-top: 15%;
+
+    p {
+        color: $blanco !important;
+    }
 
     // border: 4px solid #030f27;
-    
+
 }
 
 .lista {
