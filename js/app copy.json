@@ -1,0 +1,16 @@
+[{
+    "id": "1",
+    "categoria": "1",
+    "imagen": "img/MiniCargador-CAT.png",
+    "title": "Montacargas Nissan MPL02A25LV ECO F005",
+    "detalle": {
+
+        "textoUno": "Tipo de combustión: motor eléctrico",
+        "textoDos": "-Año: 2014",
+        "textoTres": "-Altura máxima: 4.75 m",
+        "textoCuatro": "-Mástil: triple",
+        "textoCinco": "-Llantas: rundom",
+        "textoSeis": "-Capacidad de carga: 8,000 lbs",
+        "textoSiete": "-Horas de trabajo: 5,407 horas"
+    }
+}]

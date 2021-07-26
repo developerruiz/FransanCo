@@ -8,10 +8,10 @@
             "textoDos": "Potencia del motor: 293 kW/ 398 CV",
             "textoTres": "Capacidad de excavación: 436 cm",
             "textoCuatro": "Capacidad del cucharon: de 4.5 a 6.1 m3",
-            "textoCinco":"Tracción: 4x4"
+            "textoCinco": "Tracción: 4x4"
         }
     }, {
-        "id": "2", 
+        "id": "2",
         "categoria": "1",
         "imagen": "img/cargador.png",
         "title": "Mini cargador Caterpillar 259D",
@@ -77,13 +77,16 @@
         "id": "7",
         "categoria": "1",
         "imagen": "img/excavadora_lovol__1.png",
-        "title": "Excavadora Lovol FR220D",
+        "title": "Montacargas HELI CPCD25",
         "detalle": {
-            "textoUno": "Modelo de motor: Cummins 6BTAA5.9-C150",
-            "textoDos": "Potencia del motor: 112 kW",
-            "textoTres": "Capacidad de excavación:",
-            "textoCuatro": "Capacidad del cucharon: 0.92 m3",
-            "textoCinco": "Tracción: sobre orugas"
+            "textoUno": "Tipo de combustión: motor a Diesel",
+            "textoDos": "Año: 2013",
+            "textoTres": "Altura máxima: 4.75 m",
+            "textoCuatro": "Mástil: triple",
+            "textoCinco": "Llantas: rundom",
+            "textoSeis": "Capacidad de carga: 5,000 lbs",
+            "textoSiete": "Horas de trabajo: 5,407 horas"
+
         }
     }, {
         "id": "8",
@@ -91,13 +94,13 @@
         "imagen": "img/Montacargas_HELI_CPCD25__2.png",
         "title": "Montacargas HELI CPCD25",
         "detalle": {
-            "textoUno": "motor a Diesel",
-            "textoDos": "2013",
-            "textoTres": "4.75 m",
-            "textoCuatro": "Triple",
-            "textoCinco": "rundom",
-            "textoSeis": "5,000 lbs",
-            "textoSiete": "5,407 horas"
+            "textoUno": "Tipo de combustión: motor a Diesel",
+            "textoDos": "Año: 2013",
+            "textoTres": "Altura máxima: 4.75 m",
+            "textoCuatro": "Mástil: triple",
+            "textoCinco": "Llantas: rundom",
+            "textoSeis": "Capacidad de carga: 5,000 lbs",
+            "textoSiete": "Horas de trabajo: 5,407 horas"
         }
     }, {
         "id": "9",
@@ -105,13 +108,13 @@
         "imagen": "img/Montacargas_Caterpillar_DP40N1.png",
         "title": "Montacargas Caterpillar DP40N1",
         "detalle": {
-            "textoUno": "motor eléctrico",
-            "textoDos": "2014",
-            "textoTres": "4.75 m",
-            "textoCuatro": "Triple",
-            "textoCinco": "rundom",
-            "textoSeis": "8,000 lbs",
-            "textoSiete": "5,407 horas"
+            "textoUno": "Tipo de combustión: motor eléctrico",
+            "textoDos": "-Año: 2014",
+            "textoTres": "-Altura máxima: 4.75 m",
+            "textoCuatro": "-Mástil: triple",
+            "textoCinco": "-Llantas: rundom",
+            "textoSeis": "-Capacidad de carga: 8,000 lbs",
+            "textoSiete": "-Horas de trabajo: 5,407 horas"
         }
     }, {
         "id": "10",
@@ -119,13 +122,13 @@
         "imagen": "img/nisa.png",
         "title": "Montacargas Nissan MPL02A25LV ECO F005",
         "detalle": {
-            "topoMotor": "motor a gas",
-            "año": "2006",
-            "alturaMaxima": "4.70 m",
-            "Mastil": "Triple",
-            "llantas": "cusión",
-            "capacidadCarga": "5,000 lbs",
-            "horasTrabajo": "9,687 horas"
+            "textoUno": "Tipo de combustión: motor a gas",
+            "textoDos": "-Año: 2006",
+            "textoTres": "-Altura máxima: 4.70 m",
+            "textoCuatro": "-Mástil: triple",
+            "textoCinco": "-Llantas: cusión",
+            "textoSeis": "-Capacidad de carga: 5,000 lbs",
+            "textoSiete": "-Horas de trabajo: 9,687 horas"
         }
     },
 
@@ -135,13 +138,13 @@
         "imagen": "img/Montacargas_Toyota_8FGU18_2.png",
         "title": "Montacargas Toyota 8FGCU16",
         "detalle": {
-            "topoMotor": "motor a gas",
-            "año": "2010",
-            "alturaMaxima": "4.74 m",
-            "Mastil": "Triple",
-            "llantas": "cusión",
-            "capacidadCarga": "3,000 lbs",
-            "horasTrabajo": "3,372 horas"
+            "textoUno": "Tipo de combustión: motor a gas",
+            "textoDos": "-Año: 2010",
+            "textoTres": "-Altura máxima: 4.74 m",
+            "textoCuatro": "-Mástil: triple",
+            "textoCinco": "-Llantas: cusión",
+            "textoSeis": "-Capacidad de carga: 3,000 lbs",
+            "textoSiete": "-Horas de trabajo: 3,372 horas"
         }
     }, {
         "id": "12",
@@ -149,13 +152,13 @@
         "imagen": "img/Montacargas_Toyota_7FGU25_1.png",
         "title": "Montacargas Toyota 7FGU25",
         "detalle": {
-            "topoMotor": "motor a gas",
-            "año": "2010",
-            "alturaMaxima": "6.00 m",
-            "Mastil": "cuádruple",
-            "llantas": "cusión",
-            "capacidadCarga": "5,000 lbs",
-            "horasTrabajo": "13,884 horas"
+            "textoUno": "Tipo de combustión: motor a gas",
+            "textoDos": "-Año: 2010",
+            "textoTres": "-Altura máxima: 6.00 m",
+            "textoCuatro": "-Mástil: cuádruple",
+            "textoCinco": "-Llantas: cusión",
+            "textoSeis": "-Capacidad de carga: 5,000 lbs",
+            "textoSiete": "-Horas de trabajo: 13,884 horas"
         }
     }, {
         "id": "13",
@@ -163,13 +166,13 @@
         "imagen": "img/Montacargas_Toyota_F8GCU25_2.png",
         "title": "Montacargas Toyota 8FGU25",
         "detalle": {
-            "topoMotor": "motor a gas",
-            "año": "",
-            "alturaMaxima": "4.74 m",
-            "Mastil": "triple",
-            "llantas": "rundom",
-            "capacidadCarga": "5,000 lbs",
-            "horasTrabajo": "7,471 horas"
+            "textoUno": "Tipo de combustión: motor a gas  ",
+            "textoDos": "-Año:",
+            "textoTres": "-Altura máxima: 4.74 m ",
+            "textoCuatro": "-Mástil: triple ",
+            "textoCinco": "-Llantas: rundom",
+            "textoSeis": "-Capacidad de carga: 5,000 lbs",
+            "textoSiete": "-Horas de trabajo: 7,471 horas"
         }
     }, {
         "id": "14",
@@ -177,11 +180,11 @@
         "imagen": "img/27.png",
         "title": "Plataforma de tijera eléctrica JLG modelo 3369LE",
         "detalle": {
-            "tipo": "tijera",
-            "combustion": "eléctrica",
-            "alturaMaxima": "10m",
-            "alturaTrabajo": "12m",
-            "capacidadCarga": "5,000 lbs"
+            "textoUno": "Tipo: tijera  ",
+            "textoDos": "-Combustión: eléctrica   ",
+            "textoTres": "-Altura máxima: 10 m  ",
+            "textoCuatro": "-Altura de trabajo: 12 m ",
+            "textoCinco": "-Capacidad de carga: 420kg"
         }
     }, {
         "id": "15",
@@ -189,13 +192,13 @@
         "imagen": "img/Montacargas_Toyota_30-7FBCU30_3.png",
         "title": "Montacargas Toyota 30–7FBCU30",
         "detalle": {
-            "topoMotor": "motor eléctrico",
-            "año": "2009",
-            "alturaMaxima": "4.74 m",
-            "Mastil": "triple",
-            "llantas": "cusión",
-            "capacidadCarga": "6,000 lbs",
-            "horasTrabajo": "1,879 horas"
+            "textoUno": "Tipo de combustión: motor eléctrico",
+            "textoDos": "-Año: 2009",
+            "textoTres": "-Altura máxima: 4.74 m",
+            "textoCuatro": "-Mástil: triple",
+            "textoCinco": "-Llantas: cusión",
+            "textoSeis": "-Capacidad de carga: 6,000 lbs",
+            "textoSiete": "-Horas de trabajo: 1,879hora"
         }
     }, {
         "id": "16",
@@ -203,13 +206,13 @@
         "imagen": "img/Montacargas_Toyota_30-7FBCU30_1.png",
         "title": "Montacargas Toyota 7FGU30",
         "detalle": {
-            "topoMotor": "motor a gas",
-            "año": "2006",
-            "alturaMaxima": "4.74 m",
-            "Mastil": "triple",
-            "llantas": "rundom",
-            "capacidadCarga": "6,000 lbs",
-            "horasTrabajo": "2,315 horas"
+            "textoUno": "Tipo de combustión: motor a gas",
+            "textoDos": "-Año: 2006",
+            "textoTres": "-Altura máxima: 4.74 m",
+            "textoCuatro": "-Mástil: triple ",
+            "textoCinco": "-Llantas: rundom ",
+            "textoSeis": "-Capacidad de carga: 6,000 lbs ",
+            "textoSiete": "-Horas de trabajo: 2,315 horas "
         }
     }, {
         "id": "17",
@@ -217,24 +220,27 @@
         "imagen": "img/Montacargas_Toyota_F8GCU25_1.png",
         "title": "Montacargas Toyota 8FGCU25",
         "detalle": {
-            "topoMotor": "motor a gas",
-            "año": "2014",
-            "alturaMaxima": "6.00 m",
-            "Mastil": "cuádruple",
-            "llantas": "cusión",
-            "capacidadCarga": "5,000 lbs",
-            "horasTrabajo": "3,395 horas"
+            "textoUno": "Tipo de combustión: motor a gas",
+            "textoDos": "-Año: 2014",
+            "textoTres": "-Altura máxima: 6.00 m",
+            "textoCuatro": "-Mástil: cuádruple.",
+            "textoCinco": "-Llantas: cusión",
+            "textoSeis": "-Capacidad de carga: 5,000 lbs",
+            "textoSiete": "-Horas de trabajo: 3,395 horas"
         }
     }, {
         "id": "18",
         "categoria": "2",
         "imagen": "img/Plataforma_de_tijeras_modelo2030_1.png",
-        "title": "Plataforma de tijera eléctrica JLG modelo 2030",
+        "title": "Plataforma de tijera eléctrica JLG modelo 2030  ",
         "detalle": {
-            "alturaMaxima": "8.10 m",
-            "alturaTrabajo": "10 m",
-            "año": "2014",
-            "capacidadCarga": "227 kg"
+            "textoUno": "Altura máxima: 8.10 m",
+            "textoDos": "-Altura de trabajo: 10 m",
+            "textoTres": "-Año: 2014",
+            "textoCuatro": "-Capacidad de carga: 227 kg",
+            "textoCinco": "",
+            "textoSeis": "",
+            "textoSiete": ""
         }
     }, {
         "id": "19",
@@ -242,13 +248,13 @@
         "imagen": "img/Montacargas_Clark_1.png",
         "title": "Montacargas Clark NPR 17",
         "detalle": {
-            "topoMotor": "motor eléctrico",
-            "año": "2014",
-            "reach": "Sencillo",
-            "Mastil": "triple",
-            "llantas": "lisas",
-            "capacidadCarga": "4,000 lbs",
-            "alturaMaxima": "7.00 m"
+            "textoUno": "Tipo de combustión: motor eléctrico  ",
+            "textoDos": "-Año: 2014  ",
+            "textoTres": "-Reach Sencillo  ",
+            "textoCuatro": "-Mástil: triple  ",
+            "textoCinco": "-Llantas: Lisas  ",
+            "textoSeis": "-Capacidad de carga: 4,000 lbs  ",
+            "textoSiete": "-Altura máxima: 7.00mts  "
         }
     }, {
         "id": "20",
@@ -256,30 +262,27 @@
         "imagen": "img/YALE-PATINE.png",
         "title": "Patín hidráulico Yale Esc035acn36te088",
         "detalle": {
-            "topoMotor": "motor eléctrico",
-            "año": "2014",
-            "alturaMaxima": "7.00 m",
-            "Mastil": "triple",
-            "llantas": "cusión",
-            "capacidadCarga": "6,000 lbs",
-            "horasTrabajo": "3,004 horas"
+            "textoUno": "Tipo de combustión: motor eléctrico   ",
+            "textoDos": "-Año:2014   ",
+            "textoTres": "-Altura máxima: 7.0 m   ",
+            "textoCuatro": "-Mástil: triple   ",
+            "textoCinco": "-Llantas: cusion   ",
+            "textoSeis": "-Capacidad de carga: 6,000 lbs   ",
+            "textoSiete": "-Horas de trabajo: 3,004 hrs   "
         }
     }, {
         "id": "21",
         "categoria": "3",
         "imagen": "img/Camion_bomberos_american_lafrance.png",
-        "title": "Camión de Bomberos American LaFrance 2000",
+        "title": "Camión de Bomberos American LaFrance 2000  ",
         "detalle": {
-            "det": "American LaFrance",
-            "año": "2000",
-            "chasis": "American LaFrance",
-            "Longitud": "33,55",
-            "alturaCamion": "11'",
-            "distanciaEjes": "44''",
-            "GVWR": "10,000",
-            "asientos": "asientos para 5, 4 aientos SCBA",
-            "motor": "Diésel caterpillar 3126 186.5 HP",
-            "transmision": "Automática Allison"
+            "textoUno": "American LaFrance   ",
+            "textoDos": "-2000   ",
+            "textoTres": "-Chasis de línea de carga   ",
+            "textoCuatro": "-4 -Door Comercial   ",
+            "textoCinco": "-Longitud: 33´55¨   ",
+            "textoSeis": "-Altura de camión: 11'  ",
+            "textoSiete": ""
         }
     }, {
         "id": "22",
@@ -287,32 +290,41 @@
         "imagen": "img/Vactor_VACCON.png",
         "title": "VAC CON 2019",
         "detalle": {
-            "det": "Camión para desazolve de drenajes",
-            "vac": "VAC CON de equipo combinado",
-            "modelo": "V312E/1300 LHA",
-            "motor": "Dual",
-            "motacarga": "Montado en chasis FREIGHTLINER 6X4"
+            "textoUno": "Camión para desazolve de drenajes   ",
+            "textoDos": "-VAC CON de equipo combinado   ",
+            "textoTres": "-Modelo: V312E/1300 LHA   ",
+            "textoCuatro": "-Motor: Dual   ",
+            "textoCinco": "-Montado en chasis FREIGHTLINER 6X4  ",
+            "textoSeis": "",
+            "textoSiete": ""
         }
     }, {
         "id": "23",
         "categoria": "4",
-
         "imagen": "img/Escarifcadora.png",
-        "title": "Escarificadora Maker MC8",
+        "title": "Escarificadora Maker MC8 ",
         "detalle": {
-            "det": "Accionada con motor Honda/Kohler 5.5hp",
-            "incluye": "Incluye rodillo, barra y juego de estrellas (76pzs)"
+            "textoUno": "Accionada con motor Honda/Kohler 5.5hp    ",
+            "textoDos": "-Incluye rodillo, barra y juego de estrellas (76pzs)   ",
+            "textoTres": "",
+            "textoCuatro": "",
+            "textoCinco": "",
+            "textoSeis": "",
+            "textoSiete": ""
         }
     }, {
         "id": "24",
         "categoria": "4",
         "imagen": "img/Malacate_1_tonelada.png",
-        "title": "Malacate de piso Maker",
+        "title": "Malacate de piso Maker   ",
         "detalle": {
-            "capacidadCarga": "Capacidad de carga 1 tonelada",
-            "motor": "Accionado con motor Honda 13hp/Kohler 14hp",
-            "incluye": "Incluye nudos, gancho, polea patesca, triangulo y Vogue",
-            "cable": "Cable con alma de acero 50mts"
+            "textoUno": "Capacidad de carga 1 tonelada    ",
+            "textoDos": "-Accionado con motor Honda 13hp/Kohler 14hp    ",
+            "textoTres": "-Incluye nudos, gancho, polea patesca, triangulo y Vogue    ",
+            "textoCuatro": "-Cable con alma de acero 50mts    ",
+            "textoCinco": "",
+            "textoSeis": "",
+            "textoSiete": ""
         }
     }, {
         "id": "25",
@@ -320,9 +332,13 @@
         "imagen": "img/Vibrador.de.concreto.honda.png",
         "title": "Vibrador de concreto Maker",
         "detalle": {
-            "motor": "Accionado por motor a gasolina Honda5.5/Kohler 6.5hp",
-            "chicote": "4 y 6 mts",
-            "diametroCabezal": "35mm"
+            "textoUno": "-Accionado por motor a gasolina Honda5.5/Kohler 6.5hp  ",
+            "textoDos": "-Chicote 4 y 6 mts  ",
+            "textoTres": "-Diámetro del cabezal 35mm  ",
+            "textoCuatro": "",
+            "textoCinco": "",
+            "textoSeis": "",
+            "textoSiete": ""
         }
     }, {
         "id": "26",
@@ -330,67 +346,97 @@
         "imagen": "img/Apisonadora.de.cuatrotiempos.png",
         "title": "Apisonadora de cuatro tiempos BM4T-R",
         "detalle": {
-            "motor": "Motor Robin EH12",
-            "tanque": "3L",
-            "rendimiento": "253M²/H",
-            "peso": "75kg"
-
+            "textoUno": "Motor Robin EH12",
+            "textoDos": "-Tanque de comb. 3L",
+            "textoTres": "-Rendimiento 253M²/H",
+            "textoCuatro": "-Peso 75Kg",
+            "textoCinco": "",
+            "textoSeis": "",
+            "textoSiete": ""
         }
     }, {
         "id": "27",
         "categoria": "4",
         "imagen": "img/revolvedora_de_concreto.png",
-        "title": "Revolvedora de concreto acero inoxidable",
+        "title": "Revolvedora de concreto acero inoxidable ",
         "detalle": {
-            "motor": "Accionado con motor Kohler 9.5 hp",
-            "capacidad": "1 saco",
-            "llanta": "rin"
+            "textoUno": "Accionado con motor Kohler 9.5 hp",
+            "textoDos": "-Capacidad de 1 saco",
+            "textoTres": "-Llanta rin 13",
+            "textoCuatro": "",
+            "textoCinco": "",
+            "textoSeis": "",
+            "textoSiete": ""
         }
     }, {
         "id": "28",
         "categoria": "4",
-        "imagen": "img/Placa_Vibratoria_Maker.png",
-        "title": "Placa Vibratoria Maker PM90",
+        "imagen":"img/Placa_Vibratoria_Maker.png",
+        "title": "Placa Vibratoria Maker PM90 ",
         "detalle": {
-            "motor": "Accionada con motor Honda 5.5hp",
-            "incluye": "Incluye tanque de agua"
+            "textoUno": "Accionada con motor Honda 5.5hp  ",
+            "textoDos": "-Incluye tanque de agua  ",
+            "textoTres": "",
+            "textoCuatro": "",
+            "textoCinco": "",
+            "textoSeis": "",
+            "textoSiete": ""
         }
     }, {
         "id": "29",
         "categoria": "4",
-        "imagen": "img/Malacate_500kg.png",
-        "title": "Malacate Maker MM500",
+        "imagen":"img/Malacate_500kg.png",
+        "title": "Malacate Maker MM500 ",
         "detalle": {
-            "motor": "Accionada con motor Honda 5.5hp/Kohler 7hp",
-            "incluye": "Incluye gancho, nudos y 30 mts de cable"
+            "textoUno": "Accionada con motor Honda 5.5hp/Kohler 7hp ",
+            "textoDos": "-Incluye gancho, nudos y 30 mts de cable",
+            "textoTres": "",
+            "textoCuatro": "",
+            "textoCinco": "",
+            "textoSeis": "",
+            "textoSiete": ""
         }
     }, {
         "id": "30",
         "categoria": "4",
         "imagen": "img/Regla-vibratoria.png",
-        "title": "Regla Vibratoria Maker RM-P5M",
+        "title": "Regla Vibratoria Maker RM-P5M ",
         "detalle": {
-            "motor": "Accionada con motor Honda GX35",
-            "incluye": "Incluye cuchilla de 3 / 4.9mts"
+            "textoUno": "Accionada con motor Honda GX35  ",
+            "textoDos": "-Incluye cuchilla de 3 / 4.9mts ",
+            "textoTres": "",
+            "textoCuatro": "",
+            "textoCinco": "",
+            "textoSeis": "",
+            "textoSiete": ""
         }
     }, {
         "id": "31",
         "categoria": "4",
         "imagen": "img/Allanadora_de_concreto_Maker.png",
-        "title": "Allanadora de concreto Maker 36",
+        "title": "Allanadora de concreto Maker 36 ",
         "detalle": {
-            "motor": "Accionada con motor Honda / Kohler 5.5hp",
-            "incluye": "Incluye juego de aspas de acabado fino"
+            "textoUno": "Accionada con motor Honda / Kohler 5.5hp",
+            "textoDos": "-Incluye juego de aspas de acabado fino",
+            "textoTres": "",
+            "textoCuatro": "",
+            "textoCinco": "",
+            "textoSeis": "",
+            "textoSiete": ""
         }
     }, {
         "id": "32",
         "categoria": "4",
         "imagen": "img/cortadora_de_piso_maker.png",
-        "title": "Cortadora de piso Maker CM16",
+        "title": "Cortadora de piso Maker CM16        ",
         "detalle": {
-            "motor": "Accionada con motor a gasolina Honda 13hp / Kohler 14hp",
-            "disco": "Guarda de disco 18 pulgadas",
-            "incluye": "Incluye tanque de agua"
+            "textoUno": "Accionada con motor a gasolina Honda 13hp / Kohler 14hp ",
+            "textoDos": "-Guarda de disco 18 pulgadas ",
+            "textoTres": "-Incluye tanque de agua  ",
+            "textoCuatro": "",
+            "textoCinco": "",
+            "textoSeis": "",
+            "textoSiete": ""
         }
     }, {
         "id": "33",
@@ -398,13 +444,13 @@
         "imagen": "img/Furius_Fix161.png",
         "title": "Furius Inverter Fix 161",
         "detalle": {
-            "voltaje": "110V 50 / 60Hz",
-            "amperaje": "20 - 160A",
-            "cicloTrabajo": "40%",
-            "electrodos ": "6013,7018",
-            "corriente": "DC",
-            "tig": "raspado",
-            "Ocv": "65V"
+            "textoUno": "Voltaje 110V 50 / 60Hz",
+            "textoDos": "-Amperaje 20 - 160A",
+            "textoTres": "-Ciclo de trabajo 40%",
+            "textoCuatro": "-Tipos de electrodos 6013,7018",
+            "textoCinco": "-Corriente salida DC",
+            "textoSeis": "-Tig raspado",
+            "textoSiete": "-Ocv 65V"
         }
     }, {
         "id": "34",
@@ -412,16 +458,16 @@
         "imagen": "img/EliteARC_130S.png",
         "title": "Elite ARC 130S",
         "detalle": {
-            "voltaje": "110V - 1 ph (+ / 10%)",
-            "frecuencia": "50 / 60Hz",
-            "voltajeVacio": "85V",
-            "rangoCorriente": "10 - 130 Amp",
-            "cicloTrabajo": "40º 45%",
-            "fusibñe": "Fusible min recomendado 25A",
-            "corriente": "DC",
-            "claseInsolacion": "I.CL.H",
-            "ip": "IP 21 S",
-            "peso": "Peso 4.0 kg"
+            "textoUno": "110V - 1 ph (+ / 10%)",
+            "textoDos": "-Frecuencia 50 / 60Hz",
+            "textoTres": "-Voltaje en vacío 85V",
+            "textoCuatro": "-Rango de corriente 10 - 130 Amp",
+            "textoCinco": "-Ciclo de trabajo a 40º 45%",
+            "textoSeis": "-Fusible min. recomendado 25A",
+            "textoSiete": "-Corriente de salida DC"
+
+
+
         }
     }, {
         "id": "35",
@@ -429,14 +475,16 @@
         "imagen": "img/Furius_FIX_181_mini.png",
         "title": "Furius Inverter FIX 181 mini",
         "detalle": {
-            "voltaje": "110/220V 50/60Hz",
-            "amperaje": "20 - 180A",
-            "cicloTrabajo": "40%",
-            "electrodos": "6013,7018",
-            "corriente": "DC",
-            "tig": "raspado",
-            "Ocv 65V": "65V",
-            "incluye": "Incluye pinza masa y pinza porta electrodos con conexión 10/25"
+            "textoUno": "Voltaje 110/220V 50/60Hz",
+            "textoDos": "-Amperaje 20 - 180A",
+            "textoTres": "-Ciclo de trabajo 40%",
+            "textoCuatro": "-Tipo de electrodos 6013,7018",
+            "textoCinco": "-Corriente salida DC",
+            "textoSeis": "-Tig raspado",
+            "textoSiete": "-Ocv 65V"
+
+          
+
         }
     }, {
         "id": "36",
@@ -444,15 +492,14 @@
         "imagen": "img/Sweiss_Skymax1550.png",
         "title": "Sweiss Skymax 1550",
         "detalle": {
-
-            "amperaje": " 5 - 155A",
-            "cicloTrabajo": "Ciclo de trabajo a 40 grados C 50%",
-            "corriente": "DC",
-            "Ocv 65V": "50 - 95V (ULTRA ARC)",
-            "voltaje": "110 / 120V (1Ph)",
-            "frecuencia": "50/60Hz",
-            "consumo": " (110 / 220V) 45A (110V) - 32A (220V)",
-            "tig": "LIFT ARC"
+            "textoUno": "Amperaje 5 - 155A",
+            "textoDos": "-Ciclo de trabajo a 40 grados C 50%",
+            "textoTres": "-Tipo de corriente DC",
+            "textoCuatro": "-Ocv 50 - 95V (ULTRA ARC)",
+            "textoCinco": "-Voltaje de entrada 110 / 120V (1Ph)",
+            "textoSeis": "-Frecuencia 50 / 60Hz",
+            "textoSiete": "-Consumo máx. (110 / 220V) 45A (110V) - 32A (220V)"
+        
 
         }
     }
