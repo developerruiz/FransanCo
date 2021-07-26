@@ -948,11 +948,15 @@ footer {
 .parrafos {
     display: flex;
     align-items: center;
-    height: 100%;
+    height: 70%;
     justify-content: center;
     flex-direction: column;
     align-items: flex-start;
+    border: 2px solid  $color-principal;
+    margin-top: 15%;
+
     // border: 4px solid #030f27;
+    
 }
 
 .lista {
