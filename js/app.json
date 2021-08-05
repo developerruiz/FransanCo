@@ -101,12 +101,11 @@
         "title": "Excavadora KOMATSU",
         "detalle": {
             "textoUno": "mod. PC200-LC8 Año 2002",
-            "textoDos": "Motor Volvo D13H 288Hp",
+            "textoDos": "Motor Cummins 147hp",
             "textoTres": "6 cilindros",
-            "textoCuatro": "24v",
-            "textoCinco": "Peso operativo 38 tons",
-            "textoSeis": "Bote 1.8m3",
-            "textoSiete": "Sobre cadenas"
+            "textoCuatro": "Peso operativo 21.7 tons",
+            "textoCinco": "Bote 1.7m3",
+            "textoSeis": "Sobre cadenas"
         }
     }, 
     {
