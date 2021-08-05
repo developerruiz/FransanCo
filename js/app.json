@@ -82,7 +82,7 @@
     {
         "id": "37",
         "categoria": "1",
-        "imagen": "img/volvo-EC340DL.jpeg",
+        "imagen": "img/volvo-EC340DL.png",
         "title": "Excavadora marca VOLVO",
         "detalle": {
             "textoUno": "mod. EC340DL Año 2013",
@@ -97,7 +97,7 @@
     {
         "id": "38",
         "categoria": "1",
-        "imagen": "img/KOMATSU-PC200-LC8 .jpeg",
+        "imagen": "img/KOMATSU-pc200.png",
         "title": "Excavadora KOMATSU",
         "detalle": {
             "textoUno": "mod. PC200-LC8 Año 2002",
