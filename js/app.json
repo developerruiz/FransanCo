@@ -1,16 +1,6 @@
-[{
-        "id": "1",
-        "categoria": "1",
-        "imagen": "img/MiniCargador-CAT.png",
-        "title": "Cargador frontal Caterpillar 980H",
-        "detalle": {
-            "textoUno": "Modelo de motor: Motor diésel CAT C15 con tecnología ACERT TM",
-            "textoDos": "Potencia del motor: 293 kW/ 398 CV",
-            "textoTres": "Capacidad de excavación: 436 cm",
-            "textoCuatro": "Capacidad del cucharon: de 4.5 a 6.1 m3",
-            "textoCinco": "Tracción: 4x4"
-        }
-    }, {
+[
+  
+    {
         "id": "2",
         "categoria": "1",
         "imagen": "img/cargador.png",
@@ -88,7 +78,38 @@
             "textoSiete": "Horas de trabajo: 5,407 horas"
 
         }
-    }, {
+    }, 
+    {
+        "id": "37",
+        "categoria": "1",
+        "imagen": "img/volvo-EC340DL.jpeg",
+        "title": "Excavadora marca VOLVO",
+        "detalle": {
+            "textoUno": "mod. EC340DL Año 2013",
+            "textoDos": "Motor Volvo D13H 288Hp",
+            "textoTres": "6 cilindros",
+            "textoCuatro": "24v",
+            "textoCinco": "Peso operativo 38 tons",
+            "textoSeis": "Bote 1.8m3",
+            "textoSiete": "Sobre cadenas"
+        }
+    }, 
+    {
+        "id": "38",
+        "categoria": "1",
+        "imagen": "img/KOMATSU-PC200-LC8 .jpeg",
+        "title": "Excavadora KOMATSU",
+        "detalle": {
+            "textoUno": "mod. PC200-LC8 Año 2002",
+            "textoDos": "Motor Volvo D13H 288Hp",
+            "textoTres": "6 cilindros",
+            "textoCuatro": "24v",
+            "textoCinco": "Peso operativo 38 tons",
+            "textoSeis": "Bote 1.8m3",
+            "textoSiete": "Sobre cadenas"
+        }
+    }, 
+    {
         "id": "8",
         "categoria": "2",
         "imagen": "img/Montacargas_HELI_CPCD25__2.png",
