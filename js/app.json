@@ -1,131 +1,274 @@
 [
-  
+
     {
+        "id": "1",
+        "categoria": "1",
+        "imagen": "img/maquinaria-pesada/Imagen1.png",
+        "title": "Mini cargador CATERPILLAR 259D",
+        "detalle": {
+            "textoUno": "Año 2016      2,722horas            ",
+            "textoDos": "Modelo de motor: CAT C3 .3B DIT (turbo)",
+            "textoTres": "Potencia del motor: 55.4 kW",
+            "textoCuatro": "Capacidad de operación: 4, 013 kg",
+            "textoCinco": "Capacidad del balde: 0.4 m3"
+
+        }
+    }, {
         "id": "2",
         "categoria": "1",
-        "imagen": "img/MiniCargador-CAT.png",
-        "title": "Mini cargador Caterpillar 259D",
+        "imagen": "img/maquinaria-pesada/Imagen2.png",
+        "title": "Retro excavadora CATERPILLAR 416E      Año 2009              ",
         "detalle": {
-            "textoUno": "Modelo de motor: CAT C3 .3B DIT (turbo)",
-            "textoDos": "Potencia del motor: 55.4 kW",
-            "textoTres": "Capacidad de operación: 4, 013 kg",
-            "textoCuatro": "Capacidad del balde: 0.4 m3"
+            "textoUno": "Modelo de motor: 3054C DINA CAT",
+            "textoDos": "Potencia del motor: 88 hp            ",
+            "textoTres": "Capacidad del cucharon: 0.88m3            ",
+            "textoCuatro": "Canopy            ",
+            "textoCinco": "Tracción: 4x2            "
         }
     }, {
         "id": "3",
         "categoria": "1",
-        "imagen": "img/Retroexcavadora_Cat_416E.png",
-        "title": "Retro excavadora Caterpillar 416E",
+        "imagen": "img/maquinaria-pesada/Imagen3.png",
+        "title": "Retro excavadora CASE 770EX MAGNUM Año 2019   0horas",
         "detalle": {
-            "textoUno": "Modelo de motor: 3054C DINA",
-            "textoDos": "Potencia del motor: 55 kW",
-            "textoTres": "Capacidad de excavación: 4,360 mm",
-            "textoCuatro": "Capacidad del cucharon: 0.76 m3",
-            "textoCinco": "Encabinado: Si",
-            "textoSeis": "Tracción: 4x2"
+            "textoUno": "   Modelo de motor: S8000 FPT            ",
+            "textoDos": "Potencia del motor: 86 HP            ",
+            "textoTres": "Capacidad de excavación:            ",
+            "textoCuatro": "Capacidad del cucharon frontal: 0.80 Cum            ",
+            "textoCinco": "Capacidad de cucharon trasero: .30cum            ",
+            "textoSeis": "Tracción: 4x4            ",
+            "TextoSiete": "Cabina cerrada            "
         }
     }, {
         "id": "4",
         "categoria": "1",
-        "imagen": "img/Retoexcavadora_Case_770_Exmagnum.png",
-        "title": "Retro excavadora case 770 exmagnum",
+        "imagen": "img/maquinaria-pesada/Imagen4.png",
+        "title": "Retroexcavadora CASE 580 SUPER N Año 2014",
         "detalle": {
-            "textoUno": "Modelo de motor: S8000 FPT",
-            "textoDos": "Potencia del motor: 86 HP",
-            "textoTres": "Capacidad de excavación:",
-            "textoCuatro": "Capacidad del cucharon frontal: 0.80 Cum",
-            "textoCinco": "Capacidad de cucharon trasero: .30cum",
-            "textoSeis": "Tracción: 4x4",
-            "TextoSiete": "Encabinado: Si"
-        }
-    }, {
-        "id": "5",
-        "categoria": "1",
-        "imagen": "img/Retroexcavadora_Case_580_SuperN.png",
-        "title": "Retroexcavadora case 580 Super N",
-        "detalle": {
-            "textoUno": "Modelo de motor: FPT F5BFL413B Turbo cargado",
+            "textoUno": "Modelo de motor: FPT F5BFL413B Turbo cargado Tier 4",
             "textoDos": "Potencia del motor: 71 kW",
             "textoTres": "Capacidad de excavación: 4.41 m",
             "textoCuatro": "Capacidad del cucharon: 0.79 m3",
             "textoCinco": "Tracción: 4x4",
             "textoSeis": "Cabinado: Si"
         }
-    }, {
-        "id": "6",
+    },
+    {
+        "id": "5",
         "categoria": "1",
-        "imagen": "img/Excavadora_HidraYulica_Caterpillar_320C_1.png",
-        "title": "Excavadora hidráulica Caterpillar 330C",
+        "imagen": "img/maquinaria-pesada/Imagen5.png",
+        "title": "Excavadora hidráulica CATERPILLAR 330C Año 2005",
         "detalle": {
             "textoUno": "Modelo de motor: CAT C-9 ATAAC",
             "textoDos": "Potencia del motor: 181 kW",
             "textoTres": "Capacidad de excavación: 6.45 m a 8.06 m",
             "textoCuatro": "Capacidad del cucharon: 1.9 a 2.2 m3",
-            "textoCinco": "Tracción: sobre orugas"
+            "textoCinco": "Peso operativo:  31,345 kgs",
+            "textoSeis": "Tracción: sobre orugas"
         }
     }, {
-        "id": "7",
+        "id": "6",
         "categoria": "1",
-        "imagen": "img/excavadora_lovol__1.png",
-        "title": "Montacargas HELI CPCD25",
+        "imagen": "img/maquinaria-pesada/Imagen6.png",
+        "title": "Excavadora LOVOL FR220D Año 2018",
         "detalle": {
-            "textoUno": "Tipo de combustión: motor a Diesel",
-            "textoDos": "Año: 2013",
-            "textoTres": "Altura máxima: 4.75 m",
-            "textoCuatro": "Mástil: triple",
-            "textoCinco": "Llantas: rundom",
-            "textoSeis": "Capacidad de carga: 5,000 lbs",
-            "textoSiete": "Horas de trabajo: 5,407 horas"
+            "textoUno": "Modelo de motor: Cummins 6BTAA5.9-C150",
+            "textoDos": "Potencia del motor: 112 kW",
+            "textoTres": "Capacidad de excavación:",
+            "textoCuatro": "Capacidad del cucharon: 0.92 m3",
+            "textoCinco": "Tracción: sobre orugas",
+            "textoSeis": "Peso operativo: 21,200kgs"
 
         }
-    }, 
+    },
     {
-        "id": "37",
+        "id": "7",
         "categoria": "1",
-        "imagen": "img/volvo-EC340DL.png",
-        "title": "Excavadora marca VOLVO",
+        "imagen": "img/maquinaria-pesada/Imagen7.png",
+        "title": "Retroexcavadora JCB 3CX        ",
         "detalle": {
-            "textoUno": "mod. EC340DL Año 2013",
-            "textoDos": "Motor Volvo D13H 288Hp",
-            "textoTres": "6 cilindros",
-            "textoCuatro": "24v",
-            "textoCinco": "Peso operativo 38 tons",
-            "textoSeis": "Bote 1.8m3",
-            "textoSiete": "Sobre cadenas"
+            "textoUno": "Año 2018",
+            "textoDos": "Motor: JCB ecomax 92hp ",
+            "textoTres": "Bote frontal ; 1.1m3",
+            "textoCuatro": "Tracción 4x4",
+            "textoCinco": "Canopy",
+            "textoSeis": "Con kit para martillo"
         }
-    }, 
-    {
-        "id": "38",
-        "categoria": "1",
-        "imagen": "img/KOMATSU-pc200.png",
-        "title": "Excavadora KOMATSU",
-        "detalle": {
-            "textoUno": "mod. PC200-LC8 Año 2002",
-            "textoDos": "Motor Cummins 147hp",
-            "textoTres": "6 cilindros",
-            "textoCuatro": "Peso operativo 21.7 tons",
-            "textoCinco": "Bote 1.7m3",
-            "textoSeis": "Sobre cadenas"
-        }
-    }, 
+    },
     {
         "id": "8",
-        "categoria": "2",
-        "imagen": "img/Montacargas_HELI_CPCD25__2.png",
-        "title": "Montacargas HELI CPCD25",
+        "categoria": "1",
+        "imagen": "img/maquinaria-pesada/Imagen8.jpg",
+        "title": "Retroexcavadora CATERPILLAR 416D Año 2001",
         "detalle": {
-            "textoUno": "Tipo de combustión: motor a Diesel",
-            "textoDos": "Año: 2013",
-            "textoTres": "Altura máxima: 4.75 m",
-            "textoCuatro": "Mástil: triple",
-            "textoCinco": "Llantas: rundom",
-            "textoSeis": "Capacidad de carga: 5,000 lbs",
-            "textoSiete": "Horas de trabajo: 5,407 horas"
+            "textoUno": "Modelo de motor: 3054C DINA CAT",
+            "textoDos": "Potencia del motor: 88 hp",
+            "textoTres": "Capacidad del cucharon: 0.88m3",
+            "textoCuatro": "Canopy",
+            "textoCinco": "Tracción: 4x2"
+        }
+    },
+    {
+        "id": "9",
+        "categoria": "1",
+        "imagen": "img/maquinaria-pesada/Imagen8.jpg",
+        "title": "Retroexcavadora CATERPILLAR 416D Año 2001",
+        "detalle": {
+            "textoUno": "Modelo de motor: 3054C DINA CAT",
+            "textoDos": "Potencia del motor: 88 hp",
+            "textoTres": "Capacidad del cucharon: 0.88m3",
+            "textoCuatro": "Canopy",
+            "textoCinco": "Tracción: 4x2"
+        }
+    },
+    {
+        "id": "10",
+        "categoria": "1",
+        "imagen": "img/maquinaria-pesada/Imagen9.png",
+        "title": "Excavadora KOMATSU PC200-LC8 Año 2002",
+        "detalle": {
+            "textoUno": "Peso operativo: 21.7tons.",
+            "textoDos": "Motor: Cummins 147Hp",
+            "textoTres": "6 cilindros",
+            "textoCuatro": "bote: 1.7m3",
+            "textoCinco": "sobre orugas"
+        }
+    },
+    {
+        "id": "11",
+        "categoria": "1",
+        "imagen": "img/maquinaria-pesada/Imagen10.png",
+        "title": "Excavadora VOLVO EC340DL Año 2013",
+        "detalle": {
+            "textoUno": " Peso operativo: 38 tons",
+            "textoDos": "Motor: VOLVO D13h 288Hp",
+            "textoTres": "Bote: 1.8m3",
+            "textoCuatro": "Sobre orugas"
+        }
+    },
+    {
+        "id": "12",
+        "categoria": "1",
+        "imagen": "img/maquinaria-pesada/Imagen11.png",
+        "title": "Tractor Pata de Cabra CATERPILLAR 815F Año 1974 ",
+        "detalle": {
+            "textoUno": "Motor: C9 Hacer CAT 253Hp",
+            "textoDos": "Peso operativo: 20.7tons"
+        }
+    },
+    {
+        "id": "13",
+        "categoria": "1",
+        "imagen": "img/maquinaria-pesada/Imagen12.jpg",
+        "title": "Compactador Pata de Cabra CATERPILLAR 826C Año 1998",
+        "detalle": {
+            "textoUno": "Motor: Caterpillar 3406 341Hp",
+            "textoDos": "Peso Operativo: 31.6 Tons",
+            "textoTres": "Ancho de tambor: 1.2m",
+            "textoCuatro": "Velocidades: 4 adelante, 4 atrás",
+            "textoCinco": "Anchura de cuchilla: 4.7m",
+            "textoSeis": "Altura de cuchilla: 1.7m"
+        }
+    },
+    {
+        "id": "14",
+        "categoria": "1",
+        "imagen": "img/maquinaria-pesada/Imagen14.png",
+        "title": "Rodillo Vibrocompactador liso HYPAC C784A",
+        "detalle": {
+            "textoUno": "Motor: Cummins QSB-1650",
+            "textoDos": "6 cilindros Turbocargado",
+            "textoTres": "Peso operativo: 14tons",
+            "textoCuatro": "DOBLE TAMBOR DE 84''X 54'"
+        }
+    },
+    {
+        "id": "15",
+        "categoria": "1",
+        "imagen": "img/maquinaria-pesada/Imagen15.png",
+        "title": "Rodillo vibrocompactador liso DYNAPAC CA250D",
+        "detalle": {
+            "textoUno": "Año 2006",
+            "textoDos": "Peso operativo: 10Tons",
+            "textoTres": "Motor: Cummins QBTA 110Hp"
+        }
+    },
+    {
+        "id": "16",
+        "categoria": "1",
+        "imagen": "img/maquinaria-pesada/",
+        "title": "Camión articulado fuera de carretera VOLVO VBM 5350 Año 1991 ",
+        "detalle": {
+            "textoUno": "Motor Volvo TD70G 213Hp",
+            "textoDos": "Sistema dual doble frenado",
+            "textoTres": "Tracción 6x6",
+            "textoCuatro": "Peso operativo 35 Tons."
+        }
+    },
+    {
+        "id": "17",
+        "categoria": "1",
+        "imagen": "img/maquinaria-pesada/Imagen17.png",
+        "title": "Motoconformadora CATERPILLAR 143H Año 2006 ",
+        "detalle": {
+            "textoUno": "Motor: CAT 3306  165Hp",
+            "textoDos": "Cuchilla: 3.6M",
+            "textoTres": "Peso operativo: 15tons"
+        }
+    },
+    {
+        "id": "18",
+        "categoria": "1",
+        "imagen": "img/maquinaria-pesada/Imagen18.png",
+        "title": "Mini cargador BOBCAT 753",
+        "detalle": {
+            "textoUno": "Año 2006",
+            "textoDos": "Peso operativo: 2,150Kgs.",
+            "textoTres": "Motor Kubota 43.5hp",
+            "textoCuatro": "4 cilindros"
+        }
+    },
+    {
+        "id": "19",
+        "categoria": "1",
+        "imagen": "img/maquinaria-pesada/Imagen19.png",
+        "title": "Miniretroexcavadora KUBOTA BX25 Año 2016 654 Hrs.",
+        "detalle": {
+            "textoUno": "Motor Kubota ",
+            "textoDos": "4Clilindros",
+            "textoTres": "Tracción 4x4",
+            "textoCuatro": "Bote: .43m3"
+        }
+    },
+    {
+        "id": "20",
+        "categoria": "1",
+        "imagen": "img/maquinaria-pesada/Imagen20.png",
+        "title": "Rodillo sencillo pata de cabra INGERSOLL RAND S40D",
+        "detalle": {
+            "textoUno": "Motor John Deere 4045DF150 80 Hp",
+            "textoDos": "Peso operativo: 4.5 Tons",
+            "textoTres": "Ancho tambor 1.37m",
+            "textoCuatro": "Diametro tambor: .93m"
+        }
+    },
+
+
+    {
+        "id": "21",
+        "categoria": "2",
+        "imagen": "img/montacargas/Imagen1.jpg",
+        "title": "MONTACARGAS DE COMBUSTION INTERNA MARCA TOYOTA",
+        "detalle": {
+            "textoUno": "ECO F001",
+            "textoDos": "Modelo: 8FGU25",
+            "textoTres": "Año: 2013",
+            "textoCuatro": "Motor: TOYOTA 4Y 4 cilindros combustión dual (gas y gasolina)"
         }
     }, {
-        "id": "9",
+        "id": "22",
         "categoria": "2",
-        "imagen": "img/Montacargas_Caterpillar_DP40N1.png",
+        "imagen": "img/montacargas/Imagen3.png",
         "title": "Montacargas Caterpillar DP40N1",
         "detalle": {
             "textoUno": "Tipo de combustión: motor eléctrico",
@@ -137,9 +280,9 @@
             "textoSiete": "-Horas de trabajo: 5,407 horas"
         }
     }, {
-        "id": "10",
+        "id": "23",
         "categoria": "2",
-        "imagen": "img/nisa.png",
+        "imagen": "img/montacargas/Imagen4.jpg",
         "title": "Montacargas Nissan MPL02A25LV ECO F005",
         "detalle": {
             "textoUno": "Tipo de combustión: motor a gas",
@@ -153,9 +296,9 @@
     },
 
     {
-        "id": "11",
+        "id": "24",
         "categoria": "2",
-        "imagen": "img/Montacargas_Toyota_8FGU18_2.png",
+        "imagen": "img/montacargas/Imagen5.png",
         "title": "Montacargas Toyota 8FGCU16",
         "detalle": {
             "textoUno": "Tipo de combustión: motor a gas",
@@ -167,9 +310,9 @@
             "textoSiete": "-Horas de trabajo: 3,372 horas"
         }
     }, {
-        "id": "12",
+        "id": "25",
         "categoria": "2",
-        "imagen": "img/Montacargas_Toyota_7FGU25_1.png",
+        "imagen": "img/montacargas/Imagen6.jpg",
         "title": "Montacargas Toyota 7FGU25",
         "detalle": {
             "textoUno": "Tipo de combustión: motor a gas",
@@ -181,9 +324,9 @@
             "textoSiete": "-Horas de trabajo: 13,884 horas"
         }
     }, {
-        "id": "13",
+        "id": "26",
         "categoria": "2",
-        "imagen": "img/Montacargas_Toyota_F8GCU25_2.png",
+        "imagen": "img/montacargas/Imagen7.jpg",
         "title": "Montacargas Toyota 8FGU25",
         "detalle": {
             "textoUno": "Tipo de combustión: motor a gas  ",
@@ -195,9 +338,9 @@
             "textoSiete": "-Horas de trabajo: 7,471 horas"
         }
     }, {
-        "id": "14",
+        "id": "27",
         "categoria": "2",
-        "imagen": "img/27.png",
+        "imagen": "img/montacargas/Imagen8.jpg",
         "title": "Plataforma de tijera eléctrica JLG modelo 3369LE",
         "detalle": {
             "textoUno": "Tipo: tijera  ",
@@ -207,9 +350,9 @@
             "textoCinco": "-Capacidad de carga: 420kg"
         }
     }, {
-        "id": "15",
+        "id": "28",
         "categoria": "2",
-        "imagen": "img/Montacargas_Toyota_30-7FBCU30_3.png",
+        "imagen": "img/montacargas/Imagen9.jpg",
         "title": "Montacargas Toyota 30–7FBCU30",
         "detalle": {
             "textoUno": "Tipo de combustión: motor eléctrico",
@@ -221,9 +364,9 @@
             "textoSiete": "-Horas de trabajo: 1,879hora"
         }
     }, {
-        "id": "16",
+        "id": "29",
         "categoria": "2",
-        "imagen": "img/Montacargas_Toyota_30-7FBCU30_1.png",
+        "imagen": "img/montacargas/Imagen11.jpg",
         "title": "Montacargas Toyota 7FGU30",
         "detalle": {
             "textoUno": "Tipo de combustión: motor a gas",
@@ -235,9 +378,9 @@
             "textoSiete": "-Horas de trabajo: 2,315 horas "
         }
     }, {
-        "id": "17",
+        "id": "30",
         "categoria": "2",
-        "imagen": "img/Montacargas_Toyota_F8GCU25_1.png",
+        "imagen": "img/montacargas/Imagen12.jpg",
         "title": "Montacargas Toyota 8FGCU25",
         "detalle": {
             "textoUno": "Tipo de combustión: motor a gas",
@@ -249,9 +392,9 @@
             "textoSiete": "-Horas de trabajo: 3,395 horas"
         }
     }, {
-        "id": "18",
+        "id": "31",
         "categoria": "2",
-        "imagen": "img/Plataforma_de_tijeras_modelo2030_1.png",
+        "imagen": "img/montacargas/Imagen14.jpg",
         "title": "Plataforma de tijera eléctrica JLG modelo 2030  ",
         "detalle": {
             "textoUno": "Altura máxima: 8.10 m",
@@ -263,13 +406,13 @@
             "textoSiete": ""
         }
     }, {
-        "id": "19",
+        "id": "32",
         "categoria": "2",
-        "imagen": "img/Montacargas_Clark_1.png",
+        "imagen": "img/montacargas/Imagen15.jpg",
         "title": "Montacargas Clark NPR 17",
         "detalle": {
             "textoUno": "Tipo de combustión: motor eléctrico  ",
-            "textoDos": "-Año: 2014  ",
+            "textoDos": "-Año: 2014 ",
             "textoTres": "-Reach Sencillo  ",
             "textoCuatro": "-Mástil: triple  ",
             "textoCinco": "-Llantas: Lisas  ",
@@ -277,9 +420,9 @@
             "textoSiete": "-Altura máxima: 7.00mts  "
         }
     }, {
-        "id": "20",
+        "id": "33",
         "categoria": "2",
-        "imagen": "img/YALE-PATINE.png",
+        "imagen": "img/montacargas/Imagen17.jpg",
         "title": "Patín hidráulico Yale Esc035acn36te088",
         "detalle": {
             "textoUno": "Tipo de combustión: motor eléctrico   ",
@@ -291,7 +434,35 @@
             "textoSiete": "-Horas de trabajo: 3,004 hrs   "
         }
     }, {
-        "id": "21",
+        "id": "34",
+        "categoria": "2",
+        "imagen": "img/montacargas/Imagen19.jpg",
+        "title": "Patín hidráulico Yale Esc035acn36te088",
+        "detalle": {
+            "textoUno": "Tipo de combustión: motor eléctrico   ",
+            "textoDos": "-Año:2014   ",
+            "textoTres": "-Altura máxima: 7.0 m   ",
+            "textoCuatro": "-Mástil: triple   ",
+            "textoCinco": "-Llantas: cusion   ",
+            "textoSeis": "-Capacidad de carga: 6,000 lbs   ",
+            "textoSiete": "-Horas de trabajo: 3,004 hrs   "
+        }
+    },{
+        "id": "35",
+        "categoria": "2",
+        "imagen": "img/montacargas/Imagen20.png",
+        "title": "Patín hidráulico Yale Esc035acn36te088",
+        "detalle": {
+            "textoUno": "Tipo de combustión: motor eléctrico   ",
+            "textoDos": "-Año:2014   ",
+            "textoTres": "-Altura máxima: 7.0 m   ",
+            "textoCuatro": "-Mástil: triple   ",
+            "textoCinco": "-Llantas: cusion   ",
+            "textoSeis": "-Capacidad de carga: 6,000 lbs   ",
+            "textoSiete": "-Horas de trabajo: 3,004 hrs   "
+        }
+    },  {
+        "id": "36",
         "categoria": "3",
         "imagen": "img/Camion_bomberos_american_lafrance.png",
         "title": "Camión de Bomberos American LaFrance 2000  ",
@@ -305,7 +476,7 @@
             "textoSiete": ""
         }
     }, {
-        "id": "22",
+        "id": "37",
         "categoria": "3",
         "imagen": "img/Vactor_VACCON.png",
         "title": "VAC CON 2019",
@@ -319,7 +490,7 @@
             "textoSiete": ""
         }
     }, {
-        "id": "23",
+        "id": "38",
         "categoria": "4",
         "imagen": "img/Escarifcadora.png",
         "title": "Escarificadora Maker MC8 ",
@@ -333,7 +504,7 @@
             "textoSiete": ""
         }
     }, {
-        "id": "24",
+        "id": "39",
         "categoria": "4",
         "imagen": "img/Malacate_1_tonelada.png",
         "title": "Malacate de piso Maker   ",
@@ -347,7 +518,7 @@
             "textoSiete": ""
         }
     }, {
-        "id": "25",
+        "id": "40",
         "categoria": "4",
         "imagen": "img/Vibrador.de.concreto.honda.png",
         "title": "Vibrador de concreto Maker",
@@ -361,7 +532,7 @@
             "textoSiete": ""
         }
     }, {
-        "id": "26",
+        "id": "41",
         "categoria": "4",
         "imagen": "img/Apisonadora.de.cuatrotiempos.png",
         "title": "Apisonadora de cuatro tiempos BM4T-R",
@@ -375,7 +546,7 @@
             "textoSiete": ""
         }
     }, {
-        "id": "27",
+        "id": "42",
         "categoria": "4",
         "imagen": "img/revolvedora_de_concreto.png",
         "title": "Revolvedora de concreto acero inoxidable ",
@@ -389,9 +560,9 @@
             "textoSiete": ""
         }
     }, {
-        "id": "28",
+        "id": "43",
         "categoria": "4",
-        "imagen":"img/Placa_Vibratoria_Maker.png",
+        "imagen": "img/Placa_Vibratoria_Maker.png",
         "title": "Placa Vibratoria Maker PM90 ",
         "detalle": {
             "textoUno": "Accionada con motor Honda 5.5hp  ",
@@ -403,9 +574,9 @@
             "textoSiete": ""
         }
     }, {
-        "id": "29",
+        "id": "44",
         "categoria": "4",
-        "imagen":"img/Malacate_500kg.png",
+        "imagen": "img/Malacate_500kg.png",
         "title": "Malacate Maker MM500 ",
         "detalle": {
             "textoUno": "Accionada con motor Honda 5.5hp/Kohler 7hp ",
@@ -417,7 +588,7 @@
             "textoSiete": ""
         }
     }, {
-        "id": "30",
+        "id": "45",
         "categoria": "4",
         "imagen": "img/Regla-vibratoria.png",
         "title": "Regla Vibratoria Maker RM-P5M ",
@@ -431,7 +602,7 @@
             "textoSiete": ""
         }
     }, {
-        "id": "31",
+        "id": "46",
         "categoria": "4",
         "imagen": "img/Allanadora_de_concreto_Maker.png",
         "title": "Allanadora de concreto Maker 36 ",
@@ -445,7 +616,7 @@
             "textoSiete": ""
         }
     }, {
-        "id": "32",
+        "id": "47",
         "categoria": "4",
         "imagen": "img/cortadora_de_piso_maker.png",
         "title": "Cortadora de piso Maker CM16        ",
@@ -459,7 +630,7 @@
             "textoSiete": ""
         }
     }, {
-        "id": "33",
+        "id": "48",
         "categoria": "4",
         "imagen": "img/Furius_Fix161.png",
         "title": "Furius Inverter Fix 161",
@@ -473,7 +644,7 @@
             "textoSiete": "-Ocv 65V"
         }
     }, {
-        "id": "34",
+        "id": "49",
         "categoria": "4",
         "imagen": "img/EliteARC_130S.png",
         "title": "Elite ARC 130S",
@@ -490,7 +661,7 @@
 
         }
     }, {
-        "id": "35",
+        "id": "50",
         "categoria": "4",
         "imagen": "img/Furius_FIX_181_mini.png",
         "title": "Furius Inverter FIX 181 mini",
@@ -503,11 +674,11 @@
             "textoSeis": "-Tig raspado",
             "textoSiete": "-Ocv 65V"
 
-          
+
 
         }
     }, {
-        "id": "36",
+        "id": "51",
         "categoria": "4",
         "imagen": "img/Sweiss_Skymax1550.png",
         "title": "Sweiss Skymax 1550",
@@ -519,7 +690,7 @@
             "textoCinco": "-Voltaje de entrada 110 / 120V (1Ph)",
             "textoSeis": "-Frecuencia 50 / 60Hz",
             "textoSiete": "-Consumo máx. (110 / 220V) 45A (110V) - 32A (220V)"
-        
+
 
         }
     }

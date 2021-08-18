@@ -81,10 +81,24 @@ const pintarCardsPlataforma = data => {
         templateCardPlataforma.querySelector('img').setAttribute('src', producto.imagen)
         templateCardPlataforma.querySelector('.btn-warning').dataset.id = producto.id
 
+       
         templateCardPlataforma.querySelectorAll('p')[0].textContent = producto.detalle.textoUno
         templateCardPlataforma.querySelectorAll('p')[1].textContent = producto.detalle.textoDos
         templateCardPlataforma.querySelectorAll('p')[2].textContent = producto.detalle.textoTres
         templateCardPlataforma.querySelectorAll('p')[3].textContent = producto.detalle.textoCuatro
+        templateCardPlataforma.querySelectorAll('p')[4].textContent = producto.detalle.textoCinco
+        templateCardPlataforma.querySelectorAll('p')[5].textContent = producto.detalle.textoSeis
+        templateCardPlataforma.querySelectorAll('p')[6].textContent = producto.detalle.textoSiete
+        templateCardPlataforma.querySelectorAll('p')[7].textContent = producto.detalle.textoOcho
+        templateCardPlataforma.querySelectorAll('p')[8].textContent = producto.detalle.textoNueve
+        templateCardPlataforma.querySelectorAll('p')[9].textContent = producto.detalle.textoDiez
+        templateCardPlataforma.querySelectorAll('p')[10].textContent = producto.detalle.textoOnce
+        templateCardPlataforma.querySelectorAll('p')[11].textContent = producto.detalle.textoDoce
+        templateCardPlataforma.querySelectorAll('p')[12].textContent = producto.detalle.textoTrece
+        templateCardPlataforma.querySelectorAll('p')[13].textContent = producto.detalle.textoCatorce
+        templateCardPlataforma.querySelectorAll('p')[14].textContent = producto.detalle.textoQuince
+        templateCardPlataforma.querySelectorAll('p')[15].textContent = producto.detalle.textoDieciseis
+
         // templateCardPlataforma.querySelectorAll('p')[4].textContent = producto.detalle.textoCinco
         // templateCardPlataforma.querySelectorAll('p')[5].textContent = producto.detalle.textoSeis
 
@@ -203,9 +217,19 @@ const tomarDatosPlataforma = obejeto => {
         textoDos: obejeto.querySelectorAll('p')[1].textContent,
         textoTres: obejeto.querySelectorAll('p')[2].textContent,
         textoCuatro: obejeto.querySelectorAll('p')[3].textContent,
-        // textoCinco: obejeto.querySelectorAll('p')[4].textContent,
-        // textoSeis: obejeto.querySelectorAll('p')[5].textContent,
-        // detalle: obejeto.querySelectorAll('p')[0]
+        textoCinco: objeto.querySelectorAll('p')[4].textContent,
+        textoSeis: objeto.querySelectorAll('p')[5].textContent,
+        textoSiete:objeto.querySelectorAll('p')[6].textContent,
+        textoOcho:objeto.querySelectorAll('p')[7].textContent,
+        textoNueve:objeto.querySelectorAll('p')[8].textContent,
+        textoDiez:objeto.querySelectorAll('p')[9].textContent,
+        textoOnce:objeto.querySelectorAll('p')[10].textContent,
+        textoDoce:objeto.querySelectorAll('p')[11].textContent,
+        textoTrece:objeto.querySelectorAll('p')[12].textContent,
+        textoCatorce:objeto.querySelectorAll('p')[13].textContent,
+        textoQuince:objeto.querySelectorAll('p')[14].textContent,
+        textoDieciseis:objeto.querySelectorAll('p')[15].textContent
+ 
     }
 
     console.log(producto);
@@ -239,6 +263,18 @@ const pintarProductosPlataforma = () => {
         templateModalPlataforma.querySelectorAll('p')[1].textContent = producto.textoDos
         templateModalPlataforma.querySelectorAll('p')[2].textContent = producto.textoTres
         templateModalPlataforma.querySelectorAll('p')[3].textContent = producto.textoCuatro
+        templateModalPlataforma.querySelectorAll('p')[4].textContent = producto.textoCinco
+        templateModalPlataforma.querySelectorAll('p')[5].textContent = producto.textoSeis
+        templateModalPlataforma.querySelectorAll('p')[6].textContent = producto.textoSiete
+        templateModalPlataforma.querySelectorAll('p')[7].textContent = producto.textoOcho
+        templateModalPlataforma.querySelectorAll('p')[8].textContent = producto.textoNueve
+        templateModalPlataforma.querySelectorAll('p')[9].textContent = producto.textoDiez
+        templateModalPlataforma.querySelectorAll('p')[10].textContent = producto.textoOnce
+        templateModalPlataforma.querySelectorAll('p')[11].textContent = producto.textoDoce
+        templateModalPlataforma.querySelectorAll('p')[12].textContent = producto.textoTrece
+        templateModalPlataforma.querySelectorAll('p')[13].textContent = producto.textoCatorce
+        templateModalPlataforma.querySelectorAll('p')[14].textContent = producto.textoQuince
+        templateModalPlataforma.querySelectorAll('p')[15].textContent = producto.textoDieciseis
         // templateModalPlataforma.querySelectorAll('p')[4].textContent =  producto.textoCinco
         // templateModalPlataforma.querySelectorAll('p')[5].textContent =  producto.textoSeis
         const clone = templateModalPlataforma.cloneNode(true)
